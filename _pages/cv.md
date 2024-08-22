@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="pdfs/Hakiim_cv.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+
 Work Experience
 ======
 * 2022-present: Casual Academic (Statistics)
