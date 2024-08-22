@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="pdfs/Hakiim_cv.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<a href="images/Hakiim_cv.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 
 Work Experience
 ======
