@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<object data="images/Hakiim_CV.pdf" width="1000" height="1000" type='application/pdf'/>
-
 Work Experience
 ======
 * 2022-present: Casual Academic (Statistics)
