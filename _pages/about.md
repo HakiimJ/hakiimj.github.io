@@ -16,7 +16,7 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 Recent updates:
 * {March 2025} I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my 4-year PhD journey!
 * {March 2025} I submitted my PhD thesis (hooray)!
-* {March 2025} Appointed as the leader for Education Sector in AI Talents Working Group: National Artificial Intelligence Office (NAIO), Prime Minister's Office, Malaysia
+* {March 2025} Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Prime Minister's Office, Malaysia
 * {February 2025} Appointed as a researcher in an AI implementation project at Hospital Kajang, Malaysia
 * {February 2025} Mentor for UNSW Sydney team: SAS Curiosity Cup
 * {December 2024} Oral presentation on optimal designs of univariate histograms via symbolic data analysis at Australian Data Science Network Conference (ADSN)
