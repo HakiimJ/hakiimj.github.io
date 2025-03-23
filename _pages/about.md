@@ -14,12 +14,12 @@ Hakiim Jamaluddin is a full-time Ph.D (Statistics) student at UNSW Sydney, Austr
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* {March 2025} Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
-* {March 2025} I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my 4-year PhD journey!
-* {March 2025} I submitted my PhD thesis (hooray)!
-* {February 2025} Appointed as a researcher in an AI implementation project at Hospital Kajang, Malaysia
-* {February 2025} Mentor for UNSW Sydney team: SAS Curiosity Cup
-* {December 2024} Oral presentation on optimal designs of univariate histograms via symbolic data analysis at Australian Data Science Network Conference (ADSN), Perth, Australia
-* {November 2024} Oral presentation on Gaussian mixture models via symbolic data analysis at Early Career & Student Statisticians Conference (ECSSC), Christchurch, New Zealand
-* {October 2024} Completed a 28km walk at the Cancer Council's 7 Bridges Walk to fundraise for cancer-related activities in NSW, Australia.
-* {September 2024} Completed a 42.195km full marathon at the TCS Sydney Marathon 2024 (my first running event - hooray!)
+* <b>March 2025</b> Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
+* <b>March 2025</b> I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my 4-year PhD journey!
+* <b>March 2025</b> I submitted my PhD thesis (HOORAY)!
+* <b>February 2025</b> Appointed as a researcher in an AI implementation project at Hospital Kajang, Malaysia
+* <b>February 2025</b> Mentor for UNSW Sydney team: SAS Curiosity Cup
+* <b>December 2024</b> Oral presentation on optimal designs of univariate histograms via symbolic data analysis at Australian Data Science Network Conference (ADSN), Perth, Australia
+* <b>November 2024</b> Oral presentation on Gaussian mixture models via symbolic data analysis at Early Career & Student Statisticians Conference (ECSSC), Christchurch, New Zealand
+* <b>October 2024</b> Completed a 28km walk at the Cancer Council's 7 Bridges Walk to fundraise for cancer-related activities in NSW, Australia.
+* <b>September 2024</b> Completed a 42.195km full marathon at the TCS Sydney Marathon 2024 (my first running event - hooray!)
