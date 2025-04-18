@@ -14,7 +14,7 @@ Hakiim Jamaluddin is a full-time Ph.D (Statistics) student at UNSW Sydney, Austr
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines for Teachers and Students, organised by the Ministry of Education (MOE), Malaysia.
+* <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
 * <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
 * <b>2025 Mar</b>: I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my PhD journey!
 * <b>2025 Mar</b>: I submitted my PhD thesis (HOORAY)!
