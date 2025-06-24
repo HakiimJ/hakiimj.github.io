@@ -8,12 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hakiim Jamaluddin is a full-time Ph.D (Statistics) student at UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He is currently in Statistical Computing lab and UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
+Hakiim Jamaluddin is a full-time Ph.D (Statistics) candidate (expected to graduate by June 2025 - pending minor correction) at UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He is currently in Statistical Computing lab and UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
 
 
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
+* <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction and nominated for The Outstanding Theses Award!
+* <b>2025 May</b>: Initiated the internationatiol inter-department collaboration between Universiti Putra Malaysia (Department of Mathematics and Statistics) and Universitas Airlangga (Department of Mathematics)!
 * <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
 * <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
 * <b>2025 Mar</b>: I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my PhD journey!
