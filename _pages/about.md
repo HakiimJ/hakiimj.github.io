@@ -14,7 +14,7 @@ Hakiim Jamaluddin is a recent Ph.D (Mathematics & Statistics) graduate from UNSW
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at NHTA pre-conference workshop (the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)!
+* <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at the National Health Technology Assessment (NHTA) 2025 pre-conference workshop (the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)!
 * <b>2025 July</b>: Appointed as a Research Officer at the School of Mathematics & Statistics, UNSW Sydney.
 * <b>2025 July</b>: I submitted my revised PhD thesis and graduated.
 * <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction and nominated for The Outstanding Theses Award.
