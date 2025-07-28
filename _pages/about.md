@@ -17,7 +17,7 @@ Recent updates:
 * <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at the National Health Technology Assessment (NHTA) 2025 pre-conference workshop (the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)!
 * <b>2025 July</b>: Appointed as a Research Officer at the School of Mathematics & Statistics, UNSW Sydney.
 * <b>2025 July</b>: I submitted my revised PhD thesis and graduated.
-* <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction and nominated for The Outstanding Theses Award.
+* <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction.
 * <b>2025 May</b>: Delivered a guest lecture on data science at the Department of Mathematics, Universitas Airlangga, Indonesia.
 * <b>2025 May</b>: Initiated the international inter-department collaboration between Universiti Putra Malaysia, Malaysia (Department of Mathematics and Statistics) and Universitas Airlangga, Indonesia (Department of Mathematics).
 * <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
