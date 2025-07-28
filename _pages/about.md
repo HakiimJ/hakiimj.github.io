@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hakiim Jamaluddin is a recent Ph.D (Statistics) graduate from UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He is currently in Statistical Computing lab and UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
+Hakiim Jamaluddin is a recent Ph.D (Mathematics & Statistics) graduate from UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He is currently in Statistical Computing lab and UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
 
 
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
 * <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at NHTA pre-conference workshop (the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)!
-* <b>2025 July</b>: Appointed as a Research Officer at the School of Mathematics and Statistics, UNSW Sydney.
+* <b>2025 July</b>: Appointed as a Research Officer at the School of Mathematics & Statistics, UNSW Sydney.
 * <b>2025 July</b>: I submitted my revised PhD thesis and graduated.
 * <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction and nominated for The Outstanding Theses Award.
 * <b>2025 May</b>: Delivered a guest lecture on data science at the Department of Mathematics, Universitas Airlangga, Indonesia.
