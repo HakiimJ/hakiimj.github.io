@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hakiim Jamaluddin is a recent Ph.D (Mathematics & Statistics) graduate from UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He completed a PhD training in the UNSW Statistical Computing lab (Fundamental Data Science) at UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
+Hakiim Jamaluddin is a recent Ph.D (Mathematics & Statistics) graduate from UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He completed a PhD training in the UNSW Statistical Computing lab (Fundamental Data Science team) at UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
 
 
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
