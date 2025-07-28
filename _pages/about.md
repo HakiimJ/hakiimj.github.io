@@ -14,6 +14,8 @@ Hakiim Jamaluddin is a full-time Ph.D (Statistics) candidate (expected to gradua
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
+* <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at NHTA pre-conference workshop (the [slides]{https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf} for participants)!
+* <b>2025 July</b>: I submitted my revised PhD thesis and graduated (HOORAY)!
 * <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction (HOORAY) and nominated for The Outstanding Theses Award (ANOTHER HOORAY)!
 * <b>2025 May</b>: Delivered a guest lecture on data science at the Department of Mathematics, Universitas Airlangga, Indonesia!
 * <b>2025 May</b>: Initiated the international inter-department collaboration between Universiti Putra Malaysia, Malaysia (Department of Mathematics and Statistics) and Universitas Airlangga, Indonesia (Department of Mathematics)!
