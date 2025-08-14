@@ -15,12 +15,12 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
 * <b>2025 August</b>: Will deliver a guest lecture on Machine Learning in Indonesia soon, stay tuned!
-* <b>2025 August</b>: A collaboration on IT system development for Hospital Dalat, Sarawak has begun!
-* <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at the National Health Technology Assessment (NHTA) 2025 pre-conference workshop! <!--(the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)! -->
+* <b>2025 August</b>: Kicked off a collaboration on IT system development for Hospital Dalat, Malaysia!
+* <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at the [National Health Technology Assessment (NHTA) 2025 pre-conference workshop](https://mymahtas.moh.gov.my/index.php/nhta-conference-2025/preconference-tab-tab)! <!--(the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)! -->
 * <b>2025 July</b>: Appointed as a Research Officer at the School of Mathematics & Statistics, UNSW Sydney.
 * <b>2025 July</b>: I submitted my revised PhD thesis and graduated.
 * <b>2025 June</b>: I've got my PhD thesis examination result - a minor correction.
-* <b>2025 May</b>: Delivered a guest lecture on Data Science at the Department of Mathematics, Universitas Airlangga, Indonesia.
+* <b>2025 May</b>: Delivered a [guest lecture on Data Science](https://www.instagram.com/p/DJ8rfMwPuiy/?utm_source=ig_web_copy_link) at the Department of Mathematics, Universitas Airlangga, Indonesia.
 * <b>2025 May</b>: Initiated the international inter-department collaboration between Universiti Putra Malaysia, Malaysia (Department of Mathematics and Statistics) and Universitas Airlangga, Indonesia (Department of Mathematics).
 * <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
 * <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
