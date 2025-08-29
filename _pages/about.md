@@ -14,7 +14,8 @@ Hakiim Jamaluddin is a recent Ph.D (Mathematics & Statistics) graduate from UNSW
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* <b>2025 August</b>: Deliver(ed) a [talk](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/Hakiim_MathStats_ISM2025_KualaLumpur.pdf) at ISM-VII Conference in Malaysia.
+* <b>2025 August</b>: Delivered a talk at the [7th ISM International Statistical Conference](https://www.ukm.my/ism/) in Malaysia.
+<!--* <b>2025 August</b>: Deliver(ed) a [talk](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/Hakiim_MathStats_ISM2025_KualaLumpur.pdf) at ISM-VII Conference in Malaysia.-->
 * <b>2025 August</b>: Will deliver a guest lecture on Machine Learning in Indonesia soon, stay tuned!
 * <b>2025 August</b>: Kicked off a collaboration on IT system development for Hospital Dalat, Malaysia!
 * <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at the [National Health Technology Assessment (NHTA) 2025 pre-conference workshop](https://mymahtas.moh.gov.my/index.php/nhta-conference-2025/preconference-tab-tab)! <!--(the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)! -->
