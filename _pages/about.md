@@ -14,7 +14,7 @@ Hakiim Jamaluddin is a Senior Lecturer in Statistics & Data Science at Universit
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* <b>2025 October</b>: Joined the Department of Mathematics & Statistics, Universiti Putra Malaysia as a Senior Lecturer in Statistics & Data Science!
+* <b>2025 October</b>: Joined the Department of Mathematics & Statistics, Universiti Putra Malaysia as a [Senior Lecturer in Statistics & Data Science](https://science.upm.edu.my/jabatan/matematik_dan_statistik/staf_akademik-71360)!
 * <b>2025 August</b>: Delivered a talk at the [7th ISM International Statistical Conference](https://www.ukm.my/ism/) in Malaysia and won the Best Presenter Award! <!-- (https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/Hakiim_MathStats_ISM2025_KualaLumpur.pdf) at ISM-VII Conference in Malaysia.-->
 * <b>2025 August</b>: Will deliver a guest lecture on Machine Learning in Indonesia soon, stay tuned!
 * <b>2025 August</b>: Kicked off a collaboration on IT system development for Hospital Dalat, Malaysia!
