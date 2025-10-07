@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hakiim Jamaluddin is a recent Ph.D (Mathematics & Statistics) graduate from UNSW Sydney, Australia and a young academic (Statistics and Data Science) at Universiti Putra Malaysia, Malaysia. He completed a PhD training in the UNSW Statistical Computing lab (Fundamental Data Science team) at UNSW Data Science Hub ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
+Hakiim Jamaluddin is a Senior Lecturer in Statistics & Data Science at Universiti Putra Malaysia, Malaysia. He is a recent PhD (Mathematics & Statistics) graduate from UNSW Sydney, Australia. He completed a PhD training in the UNSW Statistical Computing lab at UNSW Data Science Hub (fundamental Data Science team) ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
 
 
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* <b>2025 August</b>: Delivered a talk at the [7th ISM International Statistical Conference](https://www.ukm.my/ism/) in Malaysia and won the Best Presenter Award!. <!-- (https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/Hakiim_MathStats_ISM2025_KualaLumpur.pdf) at ISM-VII Conference in Malaysia.-->
+* <b>2025 October</b>: Joined the Department of Mathematics & Statistics, Universiti Putra Malaysia as a Senior Lecturer in Statistics & Data Science!
+* <b>2025 August</b>: Delivered a talk at the [7th ISM International Statistical Conference](https://www.ukm.my/ism/) in Malaysia and won the Best Presenter Award! <!-- (https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/Hakiim_MathStats_ISM2025_KualaLumpur.pdf) at ISM-VII Conference in Malaysia.-->
 * <b>2025 August</b>: Will deliver a guest lecture on Machine Learning in Indonesia soon, stay tuned!
 * <b>2025 August</b>: Kicked off a collaboration on IT system development for Hospital Dalat, Malaysia!
 * <b>2025 July</b>: Delivered a workshop on ShinyR dashboards via LLM at the [National Health Technology Assessment (NHTA) 2025 pre-conference workshop](https://mymahtas.moh.gov.my/index.php/nhta-conference-2025/preconference-tab-tab)! <!--(the [slides](https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/0.%20Hakiim%20-%20MaHTAS_shinyR_workshop_slides.pdf) for participants)! -->
