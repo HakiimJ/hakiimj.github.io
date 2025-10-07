@@ -24,8 +24,7 @@ Recent updates:
 * <b>2025 May</b>: Delivered a [guest lecture on Data Science](https://www.instagram.com/p/DJ8rfMwPuiy/?utm_source=ig_web_copy_link) at the Department of Mathematics, Universitas Airlangga, Indonesia.
 * <b>2025 May</b>: Initiated the international inter-department collaboration between Universiti Putra Malaysia, Malaysia (Department of Mathematics and Statistics) and Universitas Airlangga, Indonesia (Department of Mathematics).
 * <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
-* <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
-<!-- * <b>2025 Mar</b>: I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my PhD journey.-->
+* <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia <!-- * <b>2025 Mar</b>: I launched a [Medium page](https://hakiimjamaluddin.medium.com/) to share my PhD journey.-->
 * <b>2025 Feb</b>: Appointed as a researcher in an AI implementation project at Hospital Kajang, Malaysia.
 * <b>2025 Feb</b>: Mentor for UNSW Sydney team: SAS Curiosity Cup.
 * <b>2024 Dec</b>: Oral presentation at Australian Data Science Network Conference (ADSN), Perth, Australia
