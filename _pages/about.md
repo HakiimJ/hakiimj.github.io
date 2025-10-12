@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Hakiim!"
+title: "Hi, there!"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -13,7 +13,7 @@ redirect_from:
   }
 </style>
 
-<div class="justify">
+<div>
 Hakiim Jamaluddin is a Senior Lecturer in Statistics & Data Science at Universiti Putra Malaysia, Malaysia. He is a recent PhD (Mathematics & Statistics) graduate from UNSW Sydney, Australia. He completed a PhD training in the UNSW Statistical Computing lab at UNSW Data Science Hub (fundamental Data Science team) ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
 
 <i> "When I was young, I admired clever people. Now that I am old, I admire kind people." </i> - Abraham Joshua Heschel
