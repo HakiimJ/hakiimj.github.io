@@ -10,12 +10,12 @@ redirect_from:
 
 Hakiim Jamaluddin is a Senior Lecturer in Statistics & Data Science at Universiti Putra Malaysia, Malaysia. He is a recent PhD (Mathematics & Statistics) graduate from UNSW Sydney, Australia. He completed a PhD training in the UNSW Statistical Computing lab at UNSW Data Science Hub (fundamental Data Science team) ([uDASH](https://www.science.unsw.edu.au/engagement/data-science-hub)) advised by Professor [Scott Sisson](https://web.maths.unsw.edu.au/~scott/Welcome.html) and Dr. [Boris Beranger](https://www.borisberanger.com).
 
-<b> When I was young, I admired clever people. Now that I am old, I admire kind people </b> - Abraham Joshua Heschel
+<i> When I was young, I admired clever people. Now that I am old, I admire kind people </i> - Abraham Joshua Heschel
 
 Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 
 Recent updates:
-* <b>2025 October</b>: Won silver medal award at [X-CIPTA]([https://sites.google.com/unimap.edu.my/xcipta]) for a collaboration work with Hospital Dalat and UPM.
+* <b>2025 October</b>: Won Silver Medal Award at [X-CIPTA]([https://sites.google.com/unimap.edu.my/xcipta]) for a collaborative work with Hospital Dalat and UPM.
 * <b>2025 October</b>: Joined the Department of Mathematics & Statistics, Universiti Putra Malaysia as a [Senior Lecturer in Statistics & Data Science](https://science.upm.edu.my/jabatan/matematik_dan_statistik/staf_akademik-71360).
 * <b>2025 August</b>: Delivered a talk at the [7th ISM International Statistical Conference](https://www.ukm.my/ism/) in Malaysia and won the Best Presenter Award. <!-- (https://github.com/HakiimJ/hakiimj.github.io/blob/master/_talks/Hakiim_MathStats_ISM2025_KualaLumpur.pdf) at ISM-VII Conference in Malaysia.-->
 * <b>2025 August</b>: Kicked off a collaboration on IT system development for Hospital Dalat, Malaysia.
