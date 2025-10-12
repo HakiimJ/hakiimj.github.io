@@ -11,7 +11,7 @@ author_profile: true
   <ul>
     <li><strong>Senior Lecturer in Statistics and Data Science</strong>, Department of Mathematics & Statistics (October 2025 – Present)<br>
       Responsible for lecturing and course development in statistics and data science at undergraduate and postgraduate levels.<br>
-      <a href="https://github.com/HakiimJ/hakiimj.github.io/blob/master/assets/notes/STS3401_Probability_and_Statistics_1___Chapter_1___Slides__Student_version_.pdf">Notes for STS3401 (first class)</a></li>
+      <a href="https://raw.githubusercontent.com/HakiimJ/hakiimj.github.io/master/assets/notes/STS3401_Probability_and_Statistics_1___Chapter_1___Slides__Student_version_.pdf" download>Notes for STS3401 (first class)</a></li>
   </ul>
   <h3>Universitas Airlangga, Indonesia</h3>
   <ul>
