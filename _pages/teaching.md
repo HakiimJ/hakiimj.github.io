@@ -51,6 +51,4 @@ author_profile: true
     <li><strong>Casual Academic (Probability and Statistics)</strong>, School of Mathematical and Physical Sciences (February 2022 – May 2022)<br>
       Taught foundational probability and statistics to undergraduate students.</li>
   </ul>
-
-  <p>If you'd like to add more details (e.g., specific course codes, student feedback, or syllabi), or convert this to dynamic Jekyll posts, let me know!</p>
 </div>
