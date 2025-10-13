@@ -11,8 +11,8 @@ author_profile: true
   <ul>
     <li><strong>Senior Lecturer in Statistics and Data Science</strong>, Department of Mathematics & Statistics (October 2025 – Present)<br>
       Responsible for lecturing and course development in statistics and data science at undergraduate and postgraduate levels.<br> 
-      Currently: STS3401 - Probability & Statistics 1 and STS3409 - Computational Statistics<!--      <a href="https://raw.githubusercontent.com/HakiimJ/hakiimj.github.io/master/assets/notes/STS3401_Probability_and_Statistics_1___Chapter_1___Slides__Student_version_.pdf" download>Notes for STS3401 (first class)</a></li> -->
-  </ul>
+      Currently: STS3401 - Probability & Statistics 1 and STS3409 - Computational Statistics<!--      <a href="https://raw.githubusercontent.com/HakiimJ/hakiimj.github.io/master/assets/notes/STS3401_Probability_and_Statistics_1___Chapter_1___Slides__Student_version_.pdf" download>Notes for STS3401 (first class)</a></li> 
+  </ul> -->
   <h3>Universitas Airlangga, Indonesia</h3>
   <ul>
     <li><strong>Guest Lecturer on Data Science and Machine Learning</strong>, Department of Mathematics (2025 – Present)<br>
