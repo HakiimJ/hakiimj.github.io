@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 <div class="teaching-content">
-  <p>We work on <strong>symbolic data analysis</strong>, <strong>computational statistics</strong>, <strong>statistical data science</strong>, and <strong>applied data science</strong> research. I am open to supervising students; please reach out via <a href="mailto:ahmadhakiim@upm.edu.my">ahmadhakiim@upm.edu.my</a>.</p>
+  <p>We work on <strong>symbolic data analysis</strong>, <strong>imbalanced classification</strong>, <strong>computational statistics</strong>, <strong>statistical data science</strong>, and <strong>applied data science</strong> research. I am open to supervising students; please reach out via <a href="mailto:ahmadhakiim@upm.edu.my">ahmadhakiim@upm.edu.my</a>.</p>
   
   <h3>Symbolic Data Analysis</h3>
   <ul>
