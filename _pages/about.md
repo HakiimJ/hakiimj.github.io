@@ -14,6 +14,7 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 > *“When I was young, I admired clever people. Now that I am old, I admire kind people.”* — Abraham Joshua Heschel
 
 Recent updates:
+* <b>2026 March</b>: Appointed as an external expert reviewer for BS Health Data Science Programme, Health Services Academy, Pakistan.
 * <b>2026 February</b>: Appointed as the Director for the [International Data Science Challenge (IDSC) 2026](https://idsc2026.github.io/) organised by Universiti Putra Malaysia, Universitas Airlangga, Universitas Mulawarman and Universitas Brawijaya.
 * <b>2025 December</b>: Delivered a guest lecture on Health Data Science at the Department of Mathematics, Universitas Mulawarman, Indonesia.
 * <b>2025 November</b>: Delivered a [guest lecture on Machine Learning](https://www.instagram.com/statistics_unair/p/DQ9ZIgcj2Qo/?hl=en) at the Department of Mathematics, Universitas Airlangga, Indonesia.
