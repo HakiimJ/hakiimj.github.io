@@ -17,14 +17,39 @@ author_profile: true
 
   <h3>Imbalanced Classification</h3>
   <ul>
-    <li><strong>The Impact:</strong> In critical domains like medical diagnosis or fraud detection, the "event of interest" is often rare, causing standard AI algorithms to fail. Our group develops meta-learning frameworks and dataset-specific resampling strategies to eliminate the trial-and-error in imbalanced classification, ensuring high accuracy for minority class predictions.<br>
-      <strong>Honours:</strong> 2025 - Nur Zafnazuhani Jailani
-    </li>
+    <li><strong>The Impact:</strong> In critical domains like medical diagnosis or fraud detection, the "event of interest" is often rare, causing standard AI algorithms to fail. Our group develops meta-learning frameworks and dataset-specific resampling strategies to eliminate the trial-and-error in imbalanced classification, ensuring high accuracy for minority class predictions.</li>
   </ul>
 
   <h3>Computational Statistics</h3>
   <ul>
     <li><strong>The Impact:</strong> Computational statistics involves developing computational methods to analyze and interpret complex data, often using algorithms and simulations. By leveraging high-performance computing, it enables efficient processing of statistical models for real-world applications. My group focuses on advancing these techniques, primarily using R and Python, to tackle sophisticated data analysis challenges.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Current Students</h2>
+  <h3>Honours Students</h3>
+  <ul>
+    <li>
+      <strong>Nur Zafnazuhani Jailani</strong><br>
+      <em>Nur Zafnazuhani Jailani</em>
+    </li>
+    <li>
+      <strong>Giridarkhanna A/L Vijay Khanna</strong><br>
+      <em>Giridarkhanna A/L Vijay Khanna</em>
+    </li>
+    <li>
+      <strong>Kevin Clement</strong><br>
+      <em>Kevin Clement</em>
+    </li>
+    <li>
+      <strong>Lochanna Sengottaiyan</strong><br>
+      <em>Lochanna Sengottaiyan</em>
+    </li>
+    <li>
+      <strong>Sametha Sivalingam</strong><br>
+      <em>Sametha Sivalingam</em>
+    </li>
   </ul>
 
   <hr>
