@@ -31,24 +31,24 @@ author_profile: true
   <h3>Honours Students</h3>
   <ul>
     <li>
-      <strong>Nur Zafnazuhani Jailani</strong><br>
-      <em>Nur Zafnazuhani Jailani</em>
+      <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br>
+      <strong>Nur Zafnazuhani Jailani</strong>
     </li>
     <li>
-      <strong>Giridarkhanna A/L Vijay Khanna</strong><br>
-      <em>Giridarkhanna A/L Vijay Khanna</em>
+      <img src="/images/giridarkhanna.jpg" alt="Photo of Giridarkhanna A/L Vijay Khanna" width="150"><br>
+      <strong>Giridarkhanna A/L Vijay Khanna</strong>
     </li>
     <li>
-      <strong>Kevin Clement</strong><br>
-      <em>Kevin Clement</em>
+      <img src="/images/kevin-clement.jpg" alt="Photo of Kevin Clement" width="150"><br>
+      <strong>Kevin Clement</strong>
     </li>
     <li>
-      <strong>Lochanna Sengottaiyan</strong><br>
-      <em>Lochanna Sengottaiyan</em>
+      <img src="/images/lochanna-sengottaiyan.jpg" alt="Photo of Lochanna Sengottaiyan" width="150"><br>
+      <strong>Lochanna Sengottaiyan</strong>
     </li>
     <li>
-      <strong>Sametha Sivalingam</strong><br>
-      <em>Sametha Sivalingam</em>
+      <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br>
+      <strong>Sametha Sivalingam</strong>
     </li>
   </ul>
 
