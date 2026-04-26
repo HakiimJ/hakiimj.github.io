@@ -17,7 +17,10 @@ author_profile: true
 
   <h3>Imbalanced Classification</h3>
   <ul>
-    <li><strong>The Impact:</strong> In critical domains like medical diagnosis or fraud detection, the "event of interest" is often rare, causing standard AI algorithms to fail. Our group develops meta-learning frameworks and dataset-specific resampling strategies to eliminate the trial-and-error in imbalanced classification, ensuring high accuracy for minority class predictions.</li>
+    <li><strong>The Impact:</strong> In critical domains like medical diagnosis or fraud detection, the "event of interest" is often rare, causing standard AI algorithms to fail. Our group develops meta-learning frameworks to eliminate the trial-and-error in imbalanced classification, ensuring high accuracy for minority class predictions.</li>
+    <li><strong>Data-Level Approaches:</strong> We focus on mitigating class imbalance directly at the data level by developing and applying advanced <strong>resampling methods</strong> (such as oversampling, undersampling, and hybrid techniques) tailored to specific dataset characteristics.</li>
+    <li><strong>Algorithmic-Level Approaches:</strong> Beyond data-level resampling, our research actively explores algorithmic interventions, particularly <strong>cost-sensitive learning</strong>, to penalize misclassifications and directly optimize models for minority class recognition.</li>
+    <li><strong>Recommendation Systems for Complex Data:</strong> We are developing novel recommendation systems specifically designed to navigate class imbalance, especially when it is coupled with other challenging data issues.</li>
   </ul>
 
   <h3>Computational Statistics</h3>
@@ -49,6 +52,57 @@ author_profile: true
     <li>
       <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br>
       <strong>Sametha Sivalingam</strong>
+    </li>
+  </ul>
+
+  <h3>Interns</h3>
+  <ul>
+    <li>
+      <strong>Hanisah</strong><br>
+      BSc Data Science, University of Sheffield
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>Collaborators</h2>
+  <h3>Academic Collaborators</h3>
+  <ul>
+    <li>
+      <strong>Professor Dr. Shukor Sanim</strong>, UiTM, Malaysia<br>
+      Professor in Software Engineering; Expertise: software engineering, deep learning, machine learning, AI
+    </li>
+    <li>
+      <strong>Professor Dr. Nor Idayu Mahat</strong>, UUM, Malaysia<br>
+      Professor in Statistics; Expertise: statistics, pattern recognition
+    </li>
+    <li>
+      <strong>Professor Dr. Nur Chamidah</strong>, Universitas Airlangga, Indonesia<br>
+      Professor in Statistics; Expertise: statistics, healthcare modelling
+    </li>
+    <li>
+      <strong>Associate Professor Dr. Syaiful Anam</strong>, Universitas Brawijaya, Indonesia<br>
+      Associate Professor in Computational Intelligence and Data Science; Expertise: Computational Intelligence, Data Science, Computer Vision, Machine Learning
+    </li>
+    <li>
+      <strong>Andrea Tri Rian Dani</strong>, Universitas Mulawarman, Indonesia<br>
+      Assistant Professor in Statistics; Expertise: Nonparametric-Semiparametric Regression, Time Series, Hydrological Modeling
+    </li>
+  </ul>
+
+  <h3>Industry Collaborators</h3>
+  <ul>
+    <li>
+      <strong>Dr. Izzun Nasheef M. Hasmuri</strong><br>
+      Director of Hospital Dalat, Sarawak, Malaysia
+    </li>
+    <li>
+      <strong>Dr. Naim Malek</strong><br>
+      Deputy Director of Hospital Tengku Permaisuri Norashikin, Selangor, Malaysia
+    </li>
+    <li>
+      <strong>Siti Nurfarahdillah Binte Abdul Razak</strong><br>
+      Senior Podiatrist at Sengkang General Hospital, Singapore
     </li>
   </ul>
 
