@@ -17,7 +17,7 @@ Recent updates:
 * <b>2026 April</b>: Delivered guest lectures on (1) symbolic data analysis for machine learning in healthcare and (2) machine learning for healthcare clinical analytics (projects from Malaysia and Singapore) at Universitas Brawijaya, Indonesia.
 * <b>2026 April</b>: Delivered a workshop on symbolic data analysis via R at the International Summer Program at the Faculty of Science and Technology, Universitas Airlangga, Indonesia. The materials are temporarily available [here](https://drive.google.com/drive/folders/15zEycVN2vtaKxKgo0TjgWjLQ2OOJGymk?usp=sharing).
 * <b>2026 March</b>: Published a book titled ["Strategic Analytics in University Governance"](https://www.amazon.com/Strategic-Analytics-University-Governance-Intelligence-ebook/dp/B0GV39LVG6) authored by Shukor Sanim Mohd Fauzi, Ahmad Hakiim Jamaluddin and Ray Adderley JM Gining.
-* <b>2026 March</b>: Appointed as a Health Data Science visiting lecturer at the Department of Mathematics, Universitas Brawijaya, Indonesia.
+* <b>2026 March</b>: Appointed as a visiting lecturer at the Department of Mathematics, Universitas Brawijaya, Indonesia.
 * <b>2026 March</b>: Appointed as an external expert reviewer for BS Health Data Science Programme, Health Services Academy, Pakistan.
 * <b>2026 February</b>: Appointed as the Organising Chair for the [International Data Science Challenge (IDSC) 2026](https://idsc2026.github.io/) organised by Universiti Putra Malaysia and three Indonesian universities: Universitas Airlangga, Universitas Mulawarman and Universitas Brawijaya.
 * <b>2025 December</b>: Delivered a guest lecture on Health Data Science at the Department of Mathematics, Universitas Mulawarman, Indonesia.
