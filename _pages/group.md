@@ -81,6 +81,10 @@ author_profile: true
       Professor in Statistics; Expertise: statistics, healthcare modelling
     </li>
     <li>
+      <strong>Professor Dr. Vita Ratnasari</strong>, Institut Teknologi Sepuluh Nopember, Indonesia<br>
+      Professor in Statistics; Expertise: categorical data analysis
+    </li>
+    <li>
       <strong>Associate Professor Dr. Syaiful Anam</strong>, Universitas Brawijaya, Indonesia<br>
       Associate Professor in Computational Intelligence and Data Science; Expertise: Computational Intelligence, Data Science, Computer Vision, Machine Learning
     </li>
