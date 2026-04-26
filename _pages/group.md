@@ -30,41 +30,6 @@ author_profile: true
 
   <hr>
 
-  <h2>Current Students</h2>
-  <h3>Honours Students</h3>
-  <ul>
-    <li>
-      <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br>
-      <strong>Nur Zafnazuhani Jailani</strong>
-    </li>
-    <li>
-      <img src="/images/giridarkhanna.jpg" alt="Photo of Giridarkhanna A/L Vijay Khanna" width="150"><br>
-      <strong>Giridarkhanna A/L Vijay Khanna</strong>
-    </li>
-    <li>
-      <img src="/images/kevin-clement.jpg" alt="Photo of Kevin Clement" width="150"><br>
-      <strong>Kevin Clement</strong>
-    </li>
-    <li>
-      <img src="/images/lochanna-sengottaiyan.jpg" alt="Photo of Lochanna Sengottaiyan" width="150"><br>
-      <strong>Lochanna Sengottaiyan</strong>
-    </li>
-    <li>
-      <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br>
-      <strong>Sametha Sivalingam</strong>
-    </li>
-  </ul>
-
-  <h3>Interns</h3>
-  <ul>
-    <li>
-      <strong>Hanisah</strong><br>
-      BSc Data Science, University of Sheffield
-    </li>
-  </ul>
-
-  <hr>
-
   <h2>Collaborators</h2>
   <h3>Academic Collaborators</h3>
   <ul>
@@ -107,6 +72,41 @@ author_profile: true
     <li>
       <strong>Siti Nurfarahdillah Binte Abdul Razak</strong><br>
       Senior Podiatrist at Sengkang General Hospital, Singapore
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>Current Students</h2>
+  <h3>Honours Students</h3>
+  <ul>
+    <li>
+      <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br>
+      <strong>Nur Zafnazuhani Jailani</strong>
+    </li>
+    <li>
+      <img src="/images/giridarkhanna.jpg" alt="Photo of Giridarkhanna A/L Vijay Khanna" width="150"><br>
+      <strong>Giridarkhanna A/L Vijay Khanna</strong>
+    </li>
+    <li>
+      <img src="/images/kevin-clement.jpg" alt="Photo of Kevin Clement" width="150"><br>
+      <strong>Kevin Clement</strong>
+    </li>
+    <li>
+      <img src="/images/lochanna-sengottaiyan.jpg" alt="Photo of Lochanna Sengottaiyan" width="150"><br>
+      <strong>Lochanna Sengottaiyan</strong>
+    </li>
+    <li>
+      <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br>
+      <strong>Sametha Sivalingam</strong>
+    </li>
+  </ul>
+
+  <h3>Interns</h3>
+  <ul>
+    <li>
+      <strong>Hanisah</strong><br>
+      BSc Data Science, University of Sheffield
     </li>
   </ul>
 
