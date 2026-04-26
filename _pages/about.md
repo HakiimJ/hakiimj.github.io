@@ -14,7 +14,7 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 > *“When I was young, I admired clever people. Now that I am old, I admire kind people.”* — Abraham Joshua Heschel
 
 Recent updates:
-* <b>2026 April</b>: Delivered a workshop on Symbolic Data Analysis via R at the International Summer Program at the Faculty of Science and Technology, Universitas Airlangga, Indonesia. Please find the materials [here](https://drive.google.com/drive/folders/15zEycVN2vtaKxKgo0TjgWjLQ2OOJGymk?usp=sharing) (only temporarily available).
+* <b>2026 April</b>: Delivered a workshop on Symbolic Data Analysis via R at the International Summer Program at the Faculty of Science and Technology, Universitas Airlangga, Indonesia. The materials are temporarily available [here](https://drive.google.com/drive/folders/15zEycVN2vtaKxKgo0TjgWjLQ2OOJGymk?usp=sharing).
 * <b>2026 March</b>: Published a book titled ["Strategic Analytics in University Governance"](https://www.amazon.com/Strategic-Analytics-University-Governance-Intelligence-ebook/dp/B0GV39LVG6) authored by Shukor Sanim Mohd Fauzi, Ahmad Hakiim Jamaluddin and Ray Adderley JM Gining.
 * <b>2026 March</b>: Appointed as a Health Data Science visiting lecturer at the Department of Mathematics, Universitas Brawijaya, Indonesia.
 * <b>2026 March</b>: Appointed as an external expert reviewer for BS Health Data Science Programme, Health Services Academy, Pakistan.
