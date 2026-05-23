@@ -87,7 +87,7 @@ author_profile: true
   </ul>
   <ul>
     <li>
-      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Computational Intelligence and Data Science, Universitas Brawijaya)<br>
+      <strong>Desy Lusiyanti</strong> (Mathematics, Universitas Brawijaya)<br>
       Role: Co-supervisor with Associate Professor Dr. Syaiful Anam
     </li>
   </ul>
