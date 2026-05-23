@@ -79,9 +79,15 @@ author_profile: true
 
   <h2>Current Students</h2>
   <h3>PhD Students</h3>
+    <ul>
+    <li>
+      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Medicine & Health Sciences, UPM)<br>
+      Role: Co-supervisor (Main Supervisor: Associate Professor Dr. Mohd Rafee Baharudin)
+    </li>
+  </ul>
   <ul>
     <li>
-      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Medicine & Health Sciences)<br>
+      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Medicine & Health Sciences, UPM)<br>
       Role: Co-supervisor (Main Supervisor: Associate Professor Dr. Mohd Rafee Baharudin)
     </li>
   </ul>
@@ -89,7 +95,7 @@ author_profile: true
   <h3>Master's by Research Students</h3>
   <ul>
     <li>
-      <strong>Muhammad Abbas</strong> (Statistics)<br>
+      <strong>Muhammad Abbas</strong> (Statistics, UPM)<br>
       Role: Co-supervisor (Main Supervisors: Dr. Mohd Shafie Mustafa, Dr. Farid Zamani Che Rose)
     </li>
   </ul>
