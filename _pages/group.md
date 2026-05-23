@@ -78,6 +78,22 @@ author_profile: true
   <hr>
 
   <h2>Current Students</h2>
+  <h3>PhD Students</h3>
+  <ul>
+    <li>
+      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Medicine & Health Sciences)<br>
+      Role: Co-supervisor (Main Supervisor: Associate Professor Dr. Mohd Rafee Baharudin)
+    </li>
+  </ul>
+
+  <h3>Master's by Research Students</h3>
+  <ul>
+    <li>
+      <strong>Muhammad Abbas</strong> (Statistics)<br>
+      Role: Co-supervisor (Main Supervisors: Dr. Mohd Shafie Mustafa, Dr. Farid Zamani Che Rose)
+    </li>
+  </ul>
+
   <h3>Honours Students</h3>
   <ul>
     <li>
