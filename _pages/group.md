@@ -82,13 +82,13 @@ author_profile: true
     <ul>
     <li>
       <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Medicine & Health Sciences, UPM)<br>
-      Role: Co-supervisor (Main Supervisor: Associate Professor Dr. Mohd Rafee Baharudin)
+      Role: Co-supervisor with Associate Professor Dr. Mohd Rafee Baharudin
     </li>
   </ul>
   <ul>
     <li>
-      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Medicine & Health Sciences, UPM)<br>
-      Role: Co-supervisor (Main Supervisor: Associate Professor Dr. Mohd Rafee Baharudin)
+      <strong>Dr. Ferwahn Fairis Ab Karim</strong> (Computational Intelligence and Data Science, Universitas Brawijaya)<br>
+      Role: Co-supervisor with Associate Professor Dr. Syaiful Anam
     </li>
   </ul>
 
@@ -96,7 +96,7 @@ author_profile: true
   <ul>
     <li>
       <strong>Muhammad Abbas</strong> (Statistics, UPM)<br>
-      Role: Co-supervisor (Main Supervisors: Dr. Mohd Shafie Mustafa, Dr. Farid Zamani Che Rose)
+      Role: Co-supervisor with Dr. Mohd Shafie Mustafa and Dr. Farid Zamani Che Rose
     </li>
   </ul>
 
