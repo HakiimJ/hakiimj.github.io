@@ -134,27 +134,27 @@ author_profile: true
     <li>
       <!-- <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br> -->
       <strong>Nur Zafnazuhani (Zafna) Jailani</strong><br>
-      <em>Research Focus: Imbalanced Classification</em>
+      <!-- <em>Research Focus: Imbalanced Classification</em> -->
     </li>
     <li>
       <!-- <img src="/images/giridarkhanna.jpg" alt="Photo of Giridarkhanna A/L Vijay Khanna" width="150"><br> -->
       <strong>Giridarkhanna A/L Vijay Khanna</strong><br>
-      <em>Research Focus: Symbolic Data Analysis (SDA)</em>
+      <!-- <em>Research Focus: Symbolic Data Analysis (SDA)</em> -->
     </li>
     <li>
       <!-- <img src="/images/kevin-clement.jpg" alt="Photo of Kevin Clement" width="150"><br> -->
       <strong>Kevin Clement</strong><br>
-      <em>Research Focus: Imbalanced Classification</em>
+      <!-- <em>Research Focus: Imbalanced Classification</em> -->
     </li>
     <li>
       <!-- <img src="/images/lochanna-sengottaiyan.jpg" alt="Photo of Lochanna Sengottaiyan" width="150"><br> -->
       <strong>Lochanna Sengottaiyan</strong><br>
-      <em>Research Focus: Symbolic Data Analysis (SDA)</em>
+      <!-- <em>Research Focus: Symbolic Data Analysis (SDA)</em> -->
     </li>
     <li>
       <!-- <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br> -->
       <strong>Sametha Sivalingam</strong><br>
-      <em>Research Focus: Imbalanced Classification</em>
+      <!-- <em>Research Focus: Imbalanced Classification</em> -->
     </li>
   </ul>
 
