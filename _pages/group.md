@@ -133,7 +133,7 @@ author_profile: true
   <ul>
     <li>
       <!-- <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br> -->
-      <strong>Nur Zafnazuhani (Zafna) Jailani</strong><br>
+      <strong>Nur Zafnazuhani Jailani</strong><br>
       <!-- <em>Research Focus: Imbalanced Classification</em> -->
     </li>
     <li>
