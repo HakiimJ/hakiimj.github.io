@@ -9,6 +9,9 @@ author_profile: true
 
 <div class="teaching-content">
 
+  <!-- ========================================== -->
+  <!-- SECTION 1: RESEARCH FOCUS AND AREA         -->
+  <!-- ========================================== -->
   <h2>Research Focus and Areas</h2>
   
   <p>The Statistical Data Science Research Group focuses on solving complex data challenges through <strong>symbolic data analysis</strong>, <strong>imbalanced classification</strong>, and <strong>computational statistics</strong>. We bridge fundamental statistical methodologies with applied data science, particularly in healthcare and policy. I am actively seeking driven students and industry collaborators; please reach out via ahmadhakiim[at]upm[dot]edu[dot]my.</p>
@@ -55,6 +58,9 @@ author_profile: true
 
   <hr>
 
+  <!-- ========================================== -->
+  <!-- SECTION 2: INDIVIDUALS AND PEOPLE          -->
+  <!-- ========================================== -->
   <h2>Individuals and Collaborators</h2>
   
   <h3>Academic Collaborators</h3>
@@ -126,27 +132,27 @@ author_profile: true
   <h4>Honours Students</h4>
   <ul>
     <li>
-      <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br>
+      <!-- <img src="/images/nur-zafnazuhani.jpg" alt="Photo of Nur Zafnazuhani Jailani" width="150"><br> -->
       <strong>Nur Zafnazuhani (Zafna) Jailani</strong><br>
       <em>Research Focus: Imbalanced Classification</em>
     </li>
     <li>
-      <img src="/images/giridarkhanna.jpg" alt="Photo of Giridarkhanna A/L Vijay Khanna" width="150"><br>
+      <!-- <img src="/images/giridarkhanna.jpg" alt="Photo of Giridarkhanna A/L Vijay Khanna" width="150"><br> -->
       <strong>Giridarkhanna A/L Vijay Khanna</strong><br>
       <em>Research Focus: Symbolic Data Analysis (SDA)</em>
     </li>
     <li>
-      <img src="/images/kevin-clement.jpg" alt="Photo of Kevin Clement" width="150"><br>
+      <!-- <img src="/images/kevin-clement.jpg" alt="Photo of Kevin Clement" width="150"><br> -->
       <strong>Kevin Clement</strong><br>
       <em>Research Focus: Imbalanced Classification</em>
     </li>
     <li>
-      <img src="/images/lochanna-sengottaiyan.jpg" alt="Photo of Lochanna Sengottaiyan" width="150"><br>
+      <!-- <img src="/images/lochanna-sengottaiyan.jpg" alt="Photo of Lochanna Sengottaiyan" width="150"><br> -->
       <strong>Lochanna Sengottaiyan</strong><br>
       <em>Research Focus: Symbolic Data Analysis (SDA)</em>
     </li>
     <li>
-      <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br>
+      <!-- <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br> -->
       <strong>Sametha Sivalingam</strong><br>
       <em>Research Focus: Imbalanced Classification</em>
     </li>
