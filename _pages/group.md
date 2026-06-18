@@ -156,6 +156,11 @@ author_profile: true
       <strong>Sametha Sivalingam</strong><br>
       <!-- <em>Research Focus: Imbalanced Classification</em> -->
     </li>
+    <li>
+      <!-- <img src="/images/sametha-sivalingam.jpg" alt="Photo of Sametha Sivalingam" width="150"><br> -->
+      <strong>Arman Azad Shahrezad</strong><br>
+      <!-- <em>Research Focus: Imbalanced Classification</em> -->
+    </li>
   </ul>
 
   <h4>Interns</h4>
