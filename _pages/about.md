@@ -14,7 +14,6 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 > *“When I was young, I admired clever people. Now that I am old, I admire kind people.”* — Abraham Joshua Heschel
 
 Recent updates:
-* <b>2026 June</b>: PRISM-D [here](https://drive.google.com/drive/folders/18Eqa1W-ybSnT-Zxrv40YzR7g41ZK8LT_?usp=sharing).
 * <b>2026 May</b>: Delivered a Data Analytics workshop at Kolej Dua Belas, Universiti Putra Malaysia. Materials are temporarily available [here](https://drive.google.com/drive/folders/1k8r4ZmuBhpXQ8ff5Was_9LGm6-FvG-0I?usp=drive_link).
 * <b>2026 May</b>: Delivered a workshop on AI Automation at Hospital Dalat, Sarawak.
 * <b>2026 April</b>: Delivered guest lectures on (1) symbolic data analysis for machine learning in healthcare and (2) machine learning for healthcare clinical analytics (projects from Malaysia and Singapore) at Universitas Brawijaya, Indonesia.
@@ -37,3 +36,4 @@ Recent updates:
 * <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
 * <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
 * <b>2025 Feb</b>: Appointed as a researcher in an AI implementation project at Hospital Kajang, Malaysia.
+* <b>miscellaneous</b>: PRISM-D [here](https://drive.google.com/drive/folders/18Eqa1W-ybSnT-Zxrv40YzR7g41ZK8LT_?usp=sharing).
