@@ -66,12 +66,20 @@ author_profile: true
   <h3>Academic Collaborators</h3>
   <ul>
     <li>
-      <strong>Professor Dr. Shukor Sanim</strong>, UiTM, Malaysia<br>
-      Professor in Software Engineering; Expertise: software engineering, deep learning, machine learning, AI
+      <strong>Professor Dr. Scott Sisson</strong>, UNSW Sydney, Australia<br>
+      Professor in Statistics and Data Science; PhD supervisor
+    </li>
+    <li>
+      <strong>Dr. Boris Beranger</strong>, UNSW Sydney, Australia<br>
+      Senior Lecturer in Statistics and Data Science; PhD supervisor
     </li>
     <li>
       <strong>Professor Dr. Nor Idayu Mahat</strong>, UUM, Malaysia<br>
-      Professor in Statistics; Expertise: statistics, pattern recognition
+      Professor in Statistics; MSc supervisor
+    </li>
+    <li>
+      <strong>Professor Dr. Shukor Sanim</strong>, UiTM, Malaysia<br>
+      Professor in Software Engineering; Expertise: software engineering, deep learning, machine learning, AI
     </li>
     <li>
       <strong>Professor Dr. Nur Chamidah</strong>, Universitas Airlangga, Indonesia<br>
