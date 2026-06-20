@@ -79,19 +79,19 @@ author_profile: true
     </li>
     <li>
       <strong>Professor Dr. Shukor Sanim</strong>, UiTM, Malaysia<br>
-      Professor in Software Engineering; Expertise: software engineering, deep learning, machine learning, AI
+      Professor in Software Engineering
     </li>
     <li>
       <strong>Professor Dr. Nur Chamidah</strong>, Universitas Airlangga, Indonesia<br>
-      Professor in Statistics; Expertise: statistics, healthcare modelling
+      Professor in Statistics
     </li>
     <li>
       <strong>Professor Dr. Vita Ratnasari</strong>, Institut Teknologi Sepuluh Nopember, Indonesia<br>
-      Professor in Statistics; Expertise: categorical data analysis
+      Professor in Statistics
     </li>
     <li>
       <strong>Associate Professor Dr. Syaiful Anam</strong>, Universitas Brawijaya, Indonesia<br>
-      Associate Professor in Computational Intelligence and Data Science; Expertise: Computational Intelligence, Data Science, Computer Vision, Machine Learning
+      Associate Professor in Computational Intelligence and Data Science
     </li>
         <li>
       <strong>Dr. Muhammad Jaffri Mohd Nasir</strong>, Universiti Malaysia Kelantan, Malaysia<br>
@@ -99,7 +99,7 @@ author_profile: true
     </li>
     <li>
       <strong>Andrea Tri Rian Dani</strong>, Universitas Mulawarman, Indonesia<br>
-      Assistant Professor in Statistics; Expertise: Nonparametric-Semiparametric Regression, Time Series, Hydrological Modeling
+      Assistant Professor in Statistics
     </li>
   </ul>
 
