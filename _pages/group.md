@@ -93,6 +93,10 @@ author_profile: true
       <strong>Associate Professor Dr. Syaiful Anam</strong>, Universitas Brawijaya, Indonesia<br>
       Associate Professor in Computational Intelligence and Data Science; Expertise: Computational Intelligence, Data Science, Computer Vision, Machine Learning
     </li>
+        <li>
+      <strong>Dr. Muhammad Jaffri Mohd Nasir</strong>, Universiti Malaysia Kelantan, Malaysia<br>
+      Senior Lecturer in Statistics
+    </li>
     <li>
       <strong>Andrea Tri Rian Dani</strong>, Universitas Mulawarman, Indonesia<br>
       Assistant Professor in Statistics; Expertise: Nonparametric-Semiparametric Regression, Time Series, Hydrological Modeling
