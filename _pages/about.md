@@ -39,3 +39,5 @@ Recent updates:
 * <b>2025 April</b>: A NAIO AI Talent representative to discuss and validate the development of Malaysian AI Literacy Framework and Guidelines, organised by the Ministry of Education (MOE), Malaysia.
 * <b>2025 Mar</b>: Appointed as the leader for Education Sector in [AI Talent Working Group](https://ai.gov.my/media/news-details/14022025_PRESS_RELEASE_NAIO_ENGAGES_STAKEHOLDERS_TO_SHAPE_MALAYSIA%E2%80%99S_AI_LANDSCAPE.pdf): National Artificial Intelligence Office (NAIO), Ministry of Digital, Malaysia
 * <b>2025 Feb</b>: Appointed as a researcher in an AI implementation project at Hospital Kajang, Malaysia.
+
+Here is a [placeholder](https://drive.google.com/drive/folders/1ALmGkdsYn2whATtXFG42tRSyscCsicuV?usp=drive_link) for any temporary files.
