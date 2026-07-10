@@ -14,8 +14,9 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 > *“When I was young, I admired clever people. Now that I am old, I admire kind people.”* — Abraham Joshua Heschel
 
 Recent updates:
+* <b>2026 July</b>: Delivered a talk during the Data Science Trio-Seminar at the Department of Mathematics and Statistics, Malaysia.
 * <b>2026 June</b>: Delivered a pre-innovathon (AI innovation competition for Malaysian healthcare professionals) workshop at Hospital Tengku Permaisuri Norashikin, Malaysia.
-* <b>2026 June</b>: Delivered a guest lecture on R for Data Science at Universiti Teknologi MARA, Malaysia. [Materials are temporarily available.](https://drive.google.com/drive/folders/1-zB0onwWxOc05Nt23ZQq-TaDseG_oABD?usp=sharing)
+* <b>2026 June</b>: Delivered a guest lecture on R for Data Science at Universiti Teknologi MARA, Malaysia.
 * <b>2026 May</b>: Delivered a Data Analytics workshop at Kolej Dua Belas, Universiti Putra Malaysia.
 * <b>2026 May</b>: Delivered a workshop on AI Automation at Hospital Dalat, Sarawak.
 * <b>2026 April</b>: Delivered guest lectures on (1) symbolic data analysis for machine learning in healthcare and (2) machine learning for healthcare clinical analytics (projects from Malaysia and Singapore) at Universitas Brawijaya, Indonesia.
