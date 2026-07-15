@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Research, Group & Industry Consulting"
-permalink: /group/
+permalink: /group.old/
 author_profile: true
 ---
 
