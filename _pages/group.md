@@ -18,20 +18,20 @@ author_profile: true
   
   <h3>Symbolic Data Analysis (SDA)</h3>
   <ul>
-    <li><strong>Overview:</strong> As datasets scale beyond the limits of efficient storage and processing, novel modeling paradigms are required. We extend Symbolic Data Analysis (SDA) approaches to model classical data directly through aggregate summaries. By focusing on optimal designs and likelihood-based frameworks for symbolic data, we enable sophisticated statistical methodologies—such as mixture models—to be applied to massive, complex datasets without critical information loss.</li>
+    <li><strong>Overview:</strong> As datasets scale beyond the limits of efficient storage and processing, novel modelling paradigms are required. We extend Symbolic Data Analysis (SDA) approaches to model classical data directly through aggregate summaries. By focusing on optimal designs and likelihood-based frameworks for symbolic data, we enable sophisticated statistical methodologies, such as mixture models, to be applied to massive, complex datasets without critical information loss.</li>
   </ul>
 
   <h3>Imbalanced Classification</h3>
   <ul>
     <li><strong>Overview:</strong> In high-stakes domains such as medical diagnosis and fraud detection, the event of interest is often rare, leading to the failure of standard machine learning algorithms. Our group develops meta-learning frameworks to systematically address imbalanced classification, ensuring robust predictive accuracy for minority classes.</li>
     <li><strong>Data-Level Approaches:</strong> We mitigate class imbalance at the foundational level by developing and applying advanced <strong>resampling methodologies</strong> (including oversampling, undersampling, and hybrid techniques) tailored to specific topological dataset characteristics.</li>
-    <li><strong>Algorithmic-Level Approaches:</strong> Beyond resampling, our research explores algorithmic interventions—particularly <strong>cost-sensitive learning</strong>—to penalize misclassifications mathematically and optimize models directly for minority class recognition.</li>
+    <li><strong>Algorithmic-Level Approaches:</strong> Beyond resampling, our research explores algorithmic interventions, particularly <strong>cost-sensitive learning</strong>, to penalise misclassifications mathematically and optimise models directly for minority class recognition.</li>
     <li><strong>Recommendation Systems:</strong> We are pioneering novel recommendation architectures specifically designed to navigate class imbalance, particularly when compounded by other structural data irregularities.</li>
   </ul>
 
   <h3>Computational Statistics</h3>
   <ul>
-    <li><strong>Overview:</strong> Computational statistics leverages high-performance computing to analyze and interpret complex data through advanced algorithms and simulations. Our group focuses on advancing these computational techniques—primarily utilizing R and Python—to deliver efficient, scalable processing for real-world statistical models and sophisticated data analysis challenges.</li>
+    <li><strong>Overview:</strong> Computational statistics leverages high-performance computing to analyse and interpret complex data through advanced algorithms and simulations. Our group focuses on advancing these computational techniques, primarily utilising R and Python, to deliver efficient, scalable processing for real-world statistical models and sophisticated data analysis challenges.</li>
   </ul>
 
   <hr>
@@ -57,8 +57,8 @@ author_profile: true
 
   <h3>Corporate Data Science & Mentorship</h3>
   <ul>
-    <li><strong>SAS Institute Australia & UNSW Sydney:</strong> Served as a Project Advisor for the Work Integrated Learning (WIL) program (2024), mentoring students on industry-integrated data analysis projects utilizing SAS enterprise tools.</li>
-    <li><strong>Corporate Analytics:</strong> Leveraged foundational industry experience from my tenure as a Technical (Analytics) Accountant at RHB Banking Group, utilizing large-scale data to drive strategic financial insights.</li>
+    <li><strong>SAS Institute Australia & UNSW Sydney:</strong> Served as a Project Advisor for the Work Integrated Learning (WIL) programme (2024), mentoring students on industry-integrated data analysis projects utilising SAS enterprise tools.</li>
+    <li><strong>Corporate Analytics:</strong> Leveraged foundational industry experience from my tenure as a Technical (Analytics) Accountant at RHB Banking Group, utilising large-scale data to drive strategic financial insights.</li>
   </ul>
 
   <hr>
@@ -94,7 +94,7 @@ author_profile: true
 
   <h3>Interns</h3>
   <ul>
-    <li><strong>Hanisah</strong> — BSc Data Science, University of Sheffield</li>
+    <li><strong>Hanisah</strong>, BSc Data Science, University of Sheffield</li>
   </ul>
 
 </div>
