@@ -144,6 +144,8 @@ section.slide:last-child{border-bottom:none}
   background:#fff;border:1px solid var(--rule);border-radius:12px;padding:22px;
   transition:transform 0.2s ease,box-shadow 0.2s ease,border-color 0.2s ease;
   position:relative;overflow:hidden;
+  display:flex;
+  flex-direction:column;
 }
 .card:hover{transform:translateY(-2px);box-shadow:0 14px 32px -18px rgba(88,28,135,0.35);border-color:var(--purple-soft)}
 .card h3{color:var(--purple);font-family:Georgia,serif;margin-bottom:6px}
@@ -153,6 +155,20 @@ section.slide:last-child{border-bottom:none}
 .card.tinted-pink{background:var(--pink-soft);border-color:#f7c8d6}
 .card.tinted-teal{background:var(--teal-soft);border-color:#c1e1ec}
 .card.tinted-yellow{background:var(--yellow-soft);border-color:#f1e2a3}
+
+/* ---------- Injecting Images into Cards ---------- */
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+.card-img.top-img {
+  margin-top: 0;
+}
 
 /* ---------- Callout (tcolorbox analog) ---------- */
 .callout{
@@ -199,6 +215,7 @@ section.slide:last-child{border-bottom:none}
   color:var(--purple);font-family:Georgia,serif;font-weight:700;text-align:center;
   border:1px dashed rgba(88,28,135,0.35);
   border-radius:10px;min-height:140px;padding:18px;
+  margin-top:auto; /* pushes to bottom of flex cards */
 }
 .ph.tall{min-height:220px}
 .ph small{display:block;font-weight:500;font-size:0.78rem;color:var(--muted);margin-top:6px}
@@ -243,37 +260,26 @@ section.slide:last-child{border-bottom:none}
 }
 .quote-card .who{display:block;margin-top:10px;font-style:normal;font-weight:600;color:var(--purple);font-size:0.85rem}
 
-/* ---------- Footer ---------- */
-footer{
-  background:var(--purple-deep);color:rgba(255,255,255,0.92);
-  padding:48px 0;margin-top:0;
+/* ---------- Timeline Structure ---------- */
+.timeline{position:relative;margin:30px 0;padding-left:30px;border-left:3px solid var(--purple-soft)}
+.timeline-item{position:relative;margin-bottom:40px}
+.timeline-item::before{
+  content:"";position:absolute;left:-39px;top:4px;
+  width:15px;height:15px;border-radius:50%;
+  background:var(--purple);border:3px solid #fff;box-shadow:0 0 0 3px var(--purple-soft);
 }
-footer a{color:#fff;border-bottom:1px solid rgba(255,255,255,0.35)}
-footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
-.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
-@media (max-width:880px){.foot-grid{grid-template-columns:1fr}}
-.foot-grid h4{color:#fff;font-family:Inter,sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:1.4px;margin-bottom:12px}
-.foot-grid p, .foot-grid li{color:rgba(255,255,255,0.82)}
-.foot-bottom{
-  border-top:1px solid rgba(255,255,255,0.15);margin-top:30px;padding-top:18px;
-  display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
-  font-size:0.78rem;color:rgba(255,255,255,0.7);
-}
+.timeline-year{font-family:Georgia,serif;font-size:1.4rem;font-weight:700;color:var(--purple);margin-bottom:8px}
+.timeline-content{background:#fff;border:1px solid var(--rule);border-radius:8px;padding:18px}
+.timeline-content ul{list-style-type:square;margin-left:20px}
 
-/* ---------- Mini ribbon banner ---------- */
-.banner{
-  background:linear-gradient(90deg,var(--yellow),var(--pink));
-  color:var(--purple-deep);
-  padding:14px 0;text-align:center;font-weight:600;font-size:0.95rem;
-  border-bottom:1px solid rgba(0,0,0,0.08);
+/* ---------- Social Icons / Profile Buttons ---------- */
+.profile-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.link-badge{
+  display:inline-flex;align-items:center;padding:4px 10px;border-radius:4px;
+  font-size:0.78rem;font-weight:500;background:#fff;color:var(--purple-deep);
+  border:1px solid var(--rule);transition:all 0.2s ease;
 }
-.banner span{font-family:Georgia,serif;font-weight:700}
-
-/* ---------- Anatomy: scroll progress ---------- */
-.progress{
-  position:fixed;left:0;top:0;height:3px;background:var(--pink);
-  width:0%;z-index:60;transition:width 0.05s linear;
-}
+.link-badge:hover{background:var(--purple-soft);border-color:var(--purple)}
 
 /* ---------- Print friendliness ---------- */
 @media print{
@@ -296,7 +302,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
     </div>
     <nav class="navlinks">
       <a href="#reward-culture">1. Reward Culture</a>
-      <a href="#hackathons">My Journey &amp; Photos</a>
+      <a href="#hackathons">Milestones &amp; Photos</a>
       <a href="#quickwins">2. Quick-Win Projects</a>
       <a href="#clinical-blueprints">Clinical Implementations</a>
       <a href="#idsc">Operational Case Study</a>
@@ -346,21 +352,25 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
     <span class="tag">Speaker Profile</span>
     <h2>About Dr Ahmad Hakiim Jamaluddin</h2>
     <div class="grid-2" style="margin-top:18px">
-      <div class="ph tall">
-        📷 Speaker Portrait
-        <small>Replace with <code>assets/images/hakiim.jpg</code> for your close-up profile view.</small>
+      <div>
+        <img src="/assets/images/hakiim.jpg" alt="Dr Ahmad Hakiim Jamaluddin" style="width:100%; border-radius:12px; border:1px solid var(--rule); margin-bottom: 15px;" onerror="this.onerror=null;this.src='/assets/images/2024-LynneuDASH.jpg';" />
       </div>
       <div>
-        <p><strong>Background &amp; Academic Foundation.</strong> Pure sciences route: SPM (7A+, 2As) before Malaysian Matriculation (CGPA 4.00 / 4.00) before graduating with the <strong>Chancellor Gold Medal Award</strong> and Vice Chancellor Gold Medal Award (BSc in Industrial Statistics (CGPA 3.87 / 4.00)) before a MSc in Statistics by research from Universiti Utara Malaysia (UUM).</p>
-        <p><strong>Doctoral Specialisation.</strong> Completed his Ph.D. in Mathematics and Statistics (2021–2025) at <strong>UNSW Sydney, Australia</strong>, where he worked within the UNSW Data Science Hub (uDASH) and the UNSW AI Institute. His doctoral work was nominated for the highly selective <em>Outstanding Ph.D. Theses Award</em>.</p>
-        <p><strong>Careers.</strong> Kicked off in a data engineering team (IT Department) at <strong>OSRAM Optosemiconductors, Malaysia</strong>, before joining a data modelling team (Group Finance) at <strong>RHB Bank, Malaysia</strong> before joining academia at <strong>Monash University Malaysia, Malaysia</strong> and finally <strong>Universiti Putra Malaysia, Malaysia</strong>.</p>
-         <p><strong>Current Appointments:</strong></p>
-        <ul>
-          <li><strong>Senior Lecturer in Statistics &amp; Data Science</strong> — Universiti Putra Malaysia (UPM).</li>
-          <li><strong>Education Sector Lead</strong> — AI Talents Working Group, National Artificial Intelligence Office (NAIO), Ministry of Digital Malaysia.</li>
-          <li><strong>AI Research Fellow</strong> — Sengkang General Hospital (Singapore) &amp; Hospital Kajang / Hospital Dalat (Malaysia).</li>
-          <li><strong>Visiting Lecturer &amp; Academic Peer</strong> — Universitas Airlangga (UNAIR), Institut Teknologi Sepuluh Nopember (ITS), Universitas Brawijaya (UB) &amp; Universitas Mulawarman (UNMUL), Indonesia.</li>
-        </ul>
+        <p><strong>Background &amp; Academic Foundation.</strong> Pure sciences route: SPM (7A+, 2As) before Malaysian Matriculation (CGPA 4.00 / 4.00) before graduating with the <strong>Chancellor Gold Medal Award</strong> and Vice Chancellor Gold Medal Award (BSc in Industrial Statistics, CGPA 3.87 / 4.00) followed by an MSc in Statistics from Universiti Utara Malaysia (UUM).</p>
+        <p><strong>Doctoral Specialisation.</strong> Completed his Ph.D. in Mathematics and Statistics (2021–2025) at <strong>UNSW Sydney, Australia</strong>, working inside the UNSW Data Science Hub (uDASH) and the UNSW AI Institute under Professor Scott Sisson and Dr. Boris Beranger. His doctoral work was nominated for the highly selective <em>Outstanding Ph.D. Theses Award</em>.</p>
+        <p><strong>Current Appointments.</strong> Senior Lecturer in Statistics &amp; Data Science at Universiti Putra Malaysia (UPM), Education Sector Lead for the AI Talents Working Group at the National Artificial Intelligence Office (NAIO), Ministry of Digital Malaysia, and AI Research Fellow at Sengkang General Hospital (Singapore), Hospital Kajang, and Hospital Dalat.</p>
+        
+        <h4>Professional &amp; Academic Networks</h4>
+        <div class="profile-links">
+          <a class="link-badge" href="mailto:ahmadhakiimjamaluddin@gmail.com">📧 Email</a>
+          <a class="link-badge" href="#" rel="noopener">🎓 Google Scholar</a>
+          <a class="link-badge" href="#" rel="noopener">🆔 ORCID</a>
+          <a class="link-badge" href="#" rel="noopener">🔬 ResearchGate</a>
+          <a class="link-badge" href="#" rel="noopener">📄 Scopus</a>
+          <a class="link-badge" href="https://github.com/HakiimJ" rel="noopener">💻 GitHub</a>
+          <a class="link-badge" href="https://www.linkedin.com/in/hakiimj" rel="noopener">💼 LinkedIn</a>
+          <a class="link-badge" href="#" rel="noopener">🐦 X (Twitter)</a>
+        </div>
       </div>
     </div>
   </div>
@@ -376,7 +386,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
       <p style="font-size:1.1rem;margin:0"><em>"If you build it, they might look. If you build it, transparently score it, and reward it on a brightly lit national stage, teams will push optimization boundaries past what you thought possible. High-performance AI isn't built out of thin air; it's fueled by clear visibility and stable oxygen."</em></p>
     </div>
 
-    <p>Throughout my trajectory as an undergraduate in Malaysia, a Ph.D. candidate in Australia, and now an academic director, I have observed that the difference between an exceptional engineering shipment and a project that quietly dies in a drawer boils down to the <strong>Reward Framework</strong>. Below are the four core pillars that transform standard competition spaces into innovation hotbeds:</p>
+    <p>Throughout my trajectory as an undergraduate in Malaysia, a Ph.D. candidate in Australia, and an international competition chair, I have observed that the difference between an exceptional technical deployment and a project that quietly stalls boils down to the <strong>Reward Framework</strong>. Deep baseline execution requires four pillars:</p>
 
     <div class="grid-4" style="margin-top:24px">
       <div class="card tinted-purple">
@@ -407,8 +417,8 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
 <section class="slide" id="hackathons">
   <div class="wrap">
     <span class="tag yellow">My Journey in Competition &amp; Rewards</span>
-    <h2>Walking the path: The competitive track record</h2>
-    <p>This structural blueprint isn't theoretical text—it's derived from standing on both sides of the evaluation tables. Here is the operational proof from my personal timeline of rewards, hackathons, and medals:</p>
+    <h2>Walking the path: Operational milestones &amp; competitive track record</h2>
+    <p>This structural blueprint isn't theoretical text—it's derived from standing on both sides of the evaluation tables. Here are the competitive rewards, data hackathons, and medals that shaped this framework:</p>
 
     <div class="grid-3" style="margin-top:20px">
       <!-- UUM Podium -->
@@ -416,9 +426,9 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
         <div class="num">2016</div>
         <h3>Chancellor Gold Medal</h3>
         <p>Awarded Best Overall Undergraduate Student at Universiti Utara Malaysia alongside the Vice Chancellor Gold Medal. Proved that rigorous structural standards drive deep baseline excellence.</p>
-        <div class="ph" style="margin-top:12px;">
+        <div class="ph" style="margin-top:auto;">
           📷 UUM Chancellor Ceremony
-          <small>Replace with graduation/podium photo.</small>
+          <small>Podium validation photo</small>
         </div>
       </div>
 
@@ -426,43 +436,34 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
       <div class="card">
         <div class="num">2023</div>
         <h3>CHUBB Data Hackathon</h3>
-        <p>Finished as <strong>1st Runner-Up</strong> at the CHUBB Insurance Australia Limited competitive hackathon, optimizing analytical models under intense, fixed multi-hour timelines.</p>
-        <div class="ph" style="margin-top:12px;">
-          📷 CHUBB Corporate Stage
-          <small>Replace with Australia hackathon photo.</small>
-        </div>
+        <p>Finished as <strong>1st Runner-Up (2nd Place)</strong> at the CHUBB Insurance Australia Limited competitive hackathon, optimizing risk prediction pipelines under intense, fixed multi-hour timelines.</p>
+        <img src="/assets/images/2023-CHUBB.jpg" class="card-img" style="margin-top:auto; margin-bottom:0;" alt="CHUBB Data Hackathon" />
       </div>
 
       <!-- Innovator Pro AI -->
       <div class="card">
         <div class="num">2023</div>
         <h3>Innovator Pro AI Race</h3>
-        <p>Secured <strong>2nd Runner-Up</strong> at the flagship Innovator Pro Artificial Intelligence Competition hosted at UNSW Sydney, designing algorithms calibrated for real-world impact metrics.</p>
-        <div class="ph" style="margin-top:12px;">
-          📷 UNSW Innovator Pro Showcase
-          <small>Replace with UNSW AI showcase photo.</small>
-        </div>
+        <p>Secured <strong>2nd Runner-Up (3rd Place)</strong> at the flagship Innovator Pro Artificial Intelligence Competition hosted at UNSW Sydney, designing algorithms calibrated for real-world impact metrics.</p>
+        <img src="/assets/images/2023-UNSWInnovatorPro.jpg" class="card-img" style="margin-top:auto; margin-bottom:0;" alt="Innovator Pro AI Competition" />
       </div>
 
       <!-- Think-Tank Policy -->
       <div class="card">
         <div class="num">2023</div>
         <h3>USYD AI Policy Think-Tank</h3>
-        <p>Recognized as <strong>2nd Runner-Up</strong> at the University of Sydney Artificial Intelligence Policy Competition, bridging the gap between raw code architecture and governance safety frameworks.</p>
-        <div class="ph" style="margin-top:12px;">
-          📷 University of Sydney Event
-          <small>Replace with USYD policy panel photo.</small>
-        </div>
+        <p>Recognized as <strong>2nd Runner-Up (3rd Place)</strong> at the University of Sydney Artificial Intelligence Policy Competition, bridging the gap between raw code architecture and governance safety frameworks.</p>
+        <img src="/assets/images/2023-ThinkTank.jpg" class="card-img" style="margin-top:auto; margin-bottom:0;" alt="Think-Tank AI Policy Competition" />
       </div>
 
       <!-- X-CIPTA Medal -->
       <div class="card">
         <div class="num">2025</div>
         <h3>X-CIPTA Silver Medal</h3>
-        <p>Won the <strong>Silver Medal Award</strong> for healthcare innovation stemming from our active cross-border clinical technology development alongside Hospital Dalat and UPM.</p>
-        <div class="ph" style="margin-top:12px;">
+        <p>Won the <strong>Silver Medal Award</strong> for healthcare innovation stemming from active cross-border clinical technology development alongside Hospital Dalat and UPM.</p>
+        <div class="ph" style="margin-top:auto;">
           📷 X-CIPTA Medal Presentation
-          <small>Replace with X-CIPTA project award photo.</small>
+          <small>Project award validation</small>
         </div>
       </div>
 
@@ -471,9 +472,85 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
         <div class="num">2025</div>
         <h3>7th ISM Statistical Conference</h3>
         <p>Awarded <strong>Best Presenter Award</strong> for breaking down complex Bayesian Gaussian Mixture Models via Symbolic Data Analysis for clinical analytics teams.</p>
-        <div class="ph" style="margin-top:12px;">
-          📷 ISM Best Presenter Podium
-          <small>Replace with ISM conference photo.</small>
+        <img src="/assets/images/2025-ISMVIIConference.jpg" class="card-img" style="margin-top:auto; margin-bottom:0;" alt="7th ISM Statistical Conference 2025" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== TRACK RECORD TIMELINE ====================== -->
+<section class="slide" id="timeline-section">
+  <div class="wrap">
+    <span class="tag purple">Memories &amp; Milestones</span>
+    <h2>A chronological look at milestones, conferences, and collaborative moments</h2>
+    <p>True resilience is built across both engineering spaces and operational domains. Here is the systemic timeline of my academic and professional journey:</p>
+
+    <div class="timeline">
+      <!-- 2025 -->
+      <div class="timeline-item">
+        <div class="timeline-year">2025</div>
+        <div class="timeline-content">
+          <ul>
+            <li><strong>Hospital Kajang, Malaysia:</strong> Appointed as Research Fellow for high-priority AI implementation projects.</li>
+            <li><strong>National AI Office (NAIO), Ministry of Digital:</strong> Appointed Leader of the Education Sector within the AI Talent Working Group to shape national landscape policy.</li>
+            <li><strong>Ministry of Education (MOE), Malaysia:</strong> Represented NAIO AI Talent to discuss, refine, and validate the official Malaysian AI Literacy Framework and Guidelines.</li>
+            <li><strong>Universitas Airlangga (UNAIR), Indonesia:</strong> Delivered an invited international guest lecture on Data Science at the Department of Mathematics.</li>
+            <li><strong>MaHTAS, Ministry of Health Malaysia:</strong> Invited Speaker for a flagship pre-conference training workshop on building functional ShinyR dashboards at the National Health Technology Assessment (NHTA) 2025.</li>
+            <li><strong>Hospital Dalat, Malaysia:</strong> Served as active Research Fellow for clinical analytics system developments.</li>
+            <li><strong>7th ISM International Statistical Conference:</strong> Awarded <strong>Best Presenter Award</strong> alongside PhD supervisor Professor Scott Sisson and Master supervisor Associate Professor Nur Idayu Mahat.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2024 -->
+      <div class="timeline-item">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-content">
+          <ul>
+            <li><strong>Bayes on the Beach, Gold Coast Australia:</strong> Collated foundational advanced Bayesian statistics paradigms alongside researchers Kohei and Josh.</li>
+            <li><strong>SAS Institute Australia:</strong> Served as Work Integrated Learning (WIL) Project Advisor guiding multi-team analytics alignments.</li>
+            <li><strong>TCS Sydney Marathon 2024:</strong> Completed the full 42.195km marathon trail in Sydney, Australia.</li>
+            <li><strong>NSW Cancer Council 7 Bridges Walk:</strong> Completed the rigorous 28km endurance test across Sydney.</li>
+            <li><strong>Symbolic Data Analysis Global Alignment:</strong> Presented technical breakthroughs alongside doctoral supervisors Prof. Scott and Dr. Boris to Prof. Lynne Billard (University of Georgia), the pioneer of Symbolic Data Analysis.</li>
+            <li><strong>ECSSC Conference, Christchurch, New Zealand:</strong> Delivered technical oral presentation on Bayesian Gaussian Mixture Models via Symbolic Data Analysis.</li>
+            <li><strong>Australian Data Science Network (ADSN), Perth:</strong> Delivered oral talk on Optimal Designs for Univariate Histograms; collaborated with Distinguished Prof. Kerrie Mengersen (QUT).</li>
+            <li><strong>Malaysia Hall Sydney Open Day:</strong> Led public sharing session breaking down *Data Science: What, Why and How*.</li>
+            <li><strong>UNSW Sydney Research Sync:</strong> Hosted collaborative policy discussions with Prof. Zulkiflee Abd Latif (UiTM) and Prof. Khairul Nizam Abdul Maulud (UKM).</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2023 -->
+      <div class="timeline-item">
+        <div class="timeline-year">2023</div>
+        <div class="timeline-content">
+          <ul>
+            <li><strong>One-Minute Thesis (1MT) Competition:</strong> Won 1st Place (Best for School of Mathematics and Statistics) at the UNSW Sydney Postgraduate Research Showcase. <a href="https://youtu.be/VZgPeJins5Y?si=dSjKarP7g6M1xqtO" target="_blank" style="font-weight: bold;">[Watch the Video Presentation Here]</a></li>
+            <li><strong>CHUBB Data Hackathon, Australia:</strong> Secured 2nd Place overall out of competitive analytics tracks.</li>
+            <li><strong>Innovator Pro AI Competition, UNSW:</strong> Secured 3rd Place out of flagship architectural submissions.</li>
+            <li><strong>USYD AI Policy Think-Tank Competition:</strong> Secured 3rd Place for algorithmic safety frameworks.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2022 -->
+      <div class="timeline-item">
+        <div class="timeline-year">2022</div>
+        <div class="timeline-content">
+          <ul>
+            <li><strong>UNSW Data Science Hub (uDASH):</strong> Contracted to execute core statistical modelling frameworks.</li>
+            <li><strong>MathStats Postgraduate Conference:</strong> Presented foundational insights on Symbolic Data Analysis advances.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2021 -->
+      <div class="timeline-item">
+        <div class="timeline-year">2021</div>
+        <div class="timeline-content">
+          <ul>
+            <li><strong>Perdana Fellowship Program:</strong> Appointed as Perdana Fellow (Economy) directly to the Minister of Economy, Prime Minister's Department, Malaysia.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -485,7 +562,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
   <div class="wrap">
     <span class="tag green">Theme 2: Quick-Win Projects</span>
     <h2>The Agile Deployment Engine: Small, Fast, Visible, Useful</h2>
-    <p>Grand strategies are beautiful in slide decks, but they die in protracted steering committee meetings. True structural transformation relies on shipping functional, clinical code within compact windows.</p>
+    <p>Grand strategies look beautiful in slide decks, but they risk dying in protracted steering committee meetings. True structural transformation relies on shipping functional, clinical code within compact windows.</p>
 
     <div class="steps" style="margin-top:24px">
       <div class="step green">
@@ -497,7 +574,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
       <div class="step">
         <div>
           <h4>2. Rapid Delivery (2–4 Weeks)</h4>
-          <p>Avoid lengthy 18-month architectural roadmaps. Build, validate, and ship a operational solution within a month to maintain momentum and team focus.</p>
+          <p>Avoid lengthy 18-month architectural roadmaps. Build, validate, and ship an operational solution within a month to maintain momentum and team focus.</p>
         </div>
       </div>
       <div class="step pink">
@@ -532,6 +609,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
     <div class="grid-2" style="margin-top:20px;">
       <!-- Hospital Dalat & Kajang -->
       <div class="card tinted-purple">
+        <img src="/assets/images/2025-HospitalKajangAI.jpg" class="card-img top-img" alt="Hospital Kajang AI Projects" />
         <h3>Hospital Dalat (Sarawak) &amp; Hospital Kajang (Selangor)</h3>
         <p><strong>The Implementation:</strong> Acted as AI Research Fellow leading direct IT system integrations and healthcare automation pipelines. Transformed slow manual data routing into programmatic analytics loops.</p>
         <p><strong>The Outcome:</strong> Achieved the <strong>X-CIPTA Silver Medal Award (2025)</strong> by showing how cross-border research pipelines directly optimize local district clinical systems without expensive new infrastructure investments.</p>
@@ -546,6 +624,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
 
       <!-- MaHTAS Section -->
       <div class="card tinted-pink">
+        <img src="/assets/images/2025-MaHTASpreconferenceworkshop.jpg" class="card-img top-img" alt="MaHTAS Pre-conference Workshop" />
         <h3>MaHTAS Section · Ministry of Health Malaysia</h3>
         <p><strong>The Implementation:</strong> Spearheaded the high-impact pre-conference workshop for the National Health Technology Assessment (NHTA) Conference.</p>
         <p><strong>The Outcome:</strong> Taught clinical leaders how to use Large Language Models (LLMs) to build automated, clean **ShinyR dashboards**, bypassing traditional data backlogs and making real-time clinical monitoring accessible.</p>
@@ -553,6 +632,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
 
       <!-- NAIO Policy -->
       <div class="card tinted-teal">
+        <img src="/assets/images/2025-NAIOeducationLead.JPG" class="card-img top-img" alt="NAIO Education Lead" />
         <h3>National Artificial Intelligence Office (NAIO)</h3>
         <p><strong>The Implementation:</strong> Appointed as the Education Sector Lead for the AI Talent Working Group under the Ministry of Digital Malaysia.</p>
         <p><strong>The Outcome:</strong> Co-authored and validated the official **Malaysian AI Literacy Framework and Guidelines**, ensuring frontline clinical training modules scale across national public health networks systematically.</p>
@@ -571,7 +651,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
     <div class="table-wrap" style="margin-top:18px">
       <table class="data-table">
         <thead>
-          <tr><th>Metric Dimension</th><th class="num">Operational Operational Value</th></tr>
+          <tr><th>Metric Dimension</th><th class="num">Operational Value</th></tr>
         </thead>
         <tbody>
           <tr><td>Total Registered Engineering Teams</td><td class="num">189 Teams</td></tr>
@@ -622,7 +702,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
     <div class="steps" style="margin-top:18px">
       <div class="step">
         <div>
-          <h4>Reward Publicly and Immediatley</h4>
+          <h4>Reward Publicly and Immediately</h4>
           <p>Pair transparent funding allocations with direct institutional pathways and senior recognition. Make breakthroughs feel significant to the entire organization.</p>
         </div>
       </div>
@@ -697,7 +777,7 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
     </div>
     <div class="foot-bottom">
       <span>Plenary 3 · Innovathon 2026 · 21 July 2026 · Dewan Produktiviti, MPC @ MATRADE, Kuala Lumpur</span>
-      <span>Theme: <em>Mathematics for Hope in Healthcare</em></span>
+      <span>Theme: <em>Mathematics for Hope in Healthcare</em> · Site last updated 2026-07-19</span>
     </div>
   </div>
 </footer>
@@ -720,3 +800,4 @@ footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
 </script>
 </body>
 </html>
+
