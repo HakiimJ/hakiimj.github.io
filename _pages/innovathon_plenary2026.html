@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Plenary 3 · INNOVATHON 2026 · Dr Ahmad Hakiim Jamaluddin</title>
+<meta name="description" content="AI Transformation of Reward Culture & Quick-Win Projects. A plenary talk by Dr Ahmad Hakiim Jamaluddin at INNOVATHON 2026, Dewan Produktiviti MPC @ MATRADE, Kuala Lumpur, 21 July 2026." />
+<meta name="author" content="Ahmad Hakiim Jamaluddin" />
+<meta name="theme-color" content="#581C87" />
+<style>
+/* ============================================================
+   PLENARY 2026 · INLINE STYLESHEET
+   Palette mirrors the Beamer deck (IDSCPurple / HTPNGreen /
+   WarmPink / CoolTeal / SunYellow / SoftCream / Charcoal).
+   ============================================================ */
+:root{
+  --purple:#581C87;       /* IDSC Purple */
+  --purple-deep:#3E1263;
+  --purple-soft:#F3EBFB;
+  --green:#00965A;        /* HTPN Green */
+  --green-soft:#E4F7EC;
+  --pink:#E65082;         /* Warm Pink */
+  --pink-soft:#FDE7EF;
+  --teal:#1E96B4;         /* Cool Teal */
+  --teal-soft:#E6F4F8;
+  --yellow:#FFC30F;
+  --yellow-soft:#FFF8DD;
+  --cream:#FFFDF2;
+  --charcoal:#2A2A2A;
+  --ink:#1B1B25;
+  --muted:#5C5C68;
+  --rule:#E5E2EE;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{
+  font-family:'Inter','Segoe UI','Helvetica Neue',-apple-system,Arial,sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{font-family:'Georgia','Times New Roman',serif;color:var(--purple);line-height:1.2;font-weight:700}
+h1{font-size:clamp(2.0rem,4.5vw,3.4rem);letter-spacing:-0.5px}
+h2{font-size:clamp(1.6rem,2.9vw,2.25rem);margin-bottom:0.6rem}
+h3{font-size:clamp(1.15rem,2.0vw,1.4rem);color:var(--ink);margin-bottom:0.4rem}
+h4{font-size:clamp(1.0rem,1.6vw,1.15rem);color:var(--purple);margin-bottom:0.3rem}
+p{margin-bottom:0.85rem}
+a{color:var(--purple);text-decoration:none;border-bottom:1px solid rgba(88,28,135,0.25);transition:all 0.2s ease}
+a:hover{color:var(--purple-deep);border-bottom-color:var(--purple-deep)}
+ul,ol{margin:0.4rem 0 0.9rem 1.4rem}
+li{margin-bottom:0.35rem}
+img{max-width:100%;display:block;border-radius:6px}
+
+/* ---------- Top bar ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,253,242,0.92);
+  backdrop-filter:saturate(180%) blur(10px);
+  -webkit-backdrop-filter:saturate(180%) blur(10px);
+  border-bottom:1px solid var(--rule);
+}
+.topbar-inner{
+  max-width:1180px;margin:0 auto;
+  padding:14px 24px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+}
+.brand{font-family:Georgia,serif;font-weight:700;color:var(--purple);font-size:1.05rem;letter-spacing:0.2px}
+.brand small{display:block;font-family:Inter,sans-serif;font-weight:500;color:var(--muted);font-size:0.72rem;letter-spacing:0.6px;text-transform:uppercase}
+.navlinks{display:flex;gap:14px;flex-wrap:wrap;font-size:0.85rem}
+.navlinks a{border:none;color:var(--purple-deep);font-weight:500}
+.navlinks a:hover{color:var(--pink)}
+
+/* ---------- Layout ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+section.slide{position:relative;padding:64px 0;border-bottom:1px solid var(--rule)}
+section.slide:last-child{border-bottom:none}
+.tag{
+  display:inline-block;padding:4px 10px;border-radius:999px;
+  font-size:0.72rem;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;
+  background:var(--purple);color:#fff;margin-bottom:14px;
+}
+.tag.green{background:var(--green)}
+.tag.pink{background:var(--pink)}
+.tag.teal{background:var(--teal)}
+.tag.yellow{background:var(--yellow);color:var(--charcoal)}
+.eyebrow{
+  font-size:0.78rem;font-weight:600;color:var(--teal);
+  letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;
+}
+
+/* ---------- Hero ---------- */
+.hero{
+  background:
+    radial-gradient(1200px 600px at 90% -10%,rgba(230,80,130,0.18),transparent 60%),
+    radial-gradient(900px 500px at -10% 110%,rgba(30,150,180,0.18),transparent 55%),
+    linear-gradient(180deg,var(--purple) 0%,var(--purple-deep) 100%);
+  color:#fff;
+  padding:84px 0 70px;
+  position:relative;overflow:hidden;
+}
+.hero::after{
+  content:"";position:absolute;inset:auto 0 0 0;height:6px;
+  background:linear-gradient(90deg,var(--teal),var(--green),var(--yellow),var(--pink),var(--purple));
+}
+.hero-inner{max-width:1180px;margin:0 auto;padding:0 24px}
+.hero h1{color:#fff;font-size:clamp(2.0rem,5.2vw,3.6rem);margin-bottom:0.5rem}
+.hero .lede{font-size:clamp(1.05rem,1.6vw,1.25rem);max-width:880px;color:rgba(255,255,255,0.92);margin-bottom:1.4rem}
+.hero .byline{
+  display:flex;gap:14px;flex-wrap:wrap;align-items:center;
+  background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.18);
+  border-radius:12px;padding:16px 18px;max-width:880px;backdrop-filter:blur(4px);
+}
+.hero .byline .ava{
+  width:56px;height:56px;border-radius:50%;
+  background:linear-gradient(135deg,var(--pink),var(--yellow));
+  display:flex;align-items:center;justify-content:center;
+  font-family:Georgia,serif;font-weight:700;color:var(--purple-deep);font-size:1.4rem;flex-shrink:0;
+}
+.hero .byline .who strong{display:block;font-size:1.0rem;color:#fff}
+.hero .byline .who span{display:block;font-size:0.86rem;color:rgba(255,255,255,0.85)}
+.hero-cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-block;padding:10px 18px;border-radius:8px;font-weight:600;font-size:0.92rem;
+  border:1px solid transparent;cursor:pointer;
+}
+.btn-primary{background:var(--yellow);color:var(--purple-deep);border-color:var(--yellow)}
+.btn-primary:hover{background:#ffd24a;border-color:#ffd24a}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,0.45)}
+.btn-ghost:hover{background:rgba(255,255,255,0.10)}
+
+/* ---------- Grids & cards ---------- */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media (max-width:880px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr;gap:18px}}
+.card{
+  background:#fff;border:1px solid var(--rule);border-radius:12px;padding:22px;
+  transition:transform 0.2s ease,box-shadow 0.2s ease,border-color 0.2s ease;
+  position:relative;overflow:hidden;
+}
+.card:hover{transform:translateY(-2px);box-shadow:0 14px 32px -18px rgba(88,28,135,0.35);border-color:var(--purple-soft)}
+.card h3{color:var(--purple);font-family:Georgia,serif;margin-bottom:6px}
+.card .num{font-family:Georgia,serif;font-weight:700;color:var(--pink);font-size:1.6rem;margin-bottom:4px}
+.card.tinted-green{background:var(--green-soft);border-color:#cbe9d6}
+.card.tinted-purple{background:var(--purple-soft);border-color:#ddcaf2}
+.card.tinted-pink{background:var(--pink-soft);border-color:#f7c8d6}
+.card.tinted-teal{background:var(--teal-soft);border-color:#c1e1ec}
+.card.tinted-yellow{background:var(--yellow-soft);border-color:#f1e2a3}
+
+/* ---------- Callout (tcolorbox analog) ---------- */
+.callout{
+  border-radius:12px;padding:20px 22px;margin:18px 0;
+  border-left:6px solid var(--purple);background:var(--purple-soft);
+}
+.callout.green{border-left-color:var(--green);background:var(--green-soft)}
+.callout.pink{border-left-color:var(--pink);background:var(--pink-soft)}
+.callout.teal{border-left-color:var(--teal);background:var(--teal-soft)}
+.callout.yellow{border-left-color:var(--yellow);background:var(--yellow-soft)}
+.callout h4{margin-bottom:6px}
+.callout .quote{font-style:italic;color:var(--ink)}
+
+/* ---------- Tables ---------- */
+.data-table{
+  width:100%;border-collapse:separate;border-spacing:0;
+  background:#fff;border:1px solid var(--rule);border-radius:10px;overflow:hidden;
+  font-size:0.92rem;
+}
+.data-table th,.data-table td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+.data-table th{background:var(--purple);color:#fff;font-family:Inter,sans-serif;font-weight:600;letter-spacing:0.3px;font-size:0.82rem;text-transform:uppercase}
+.data-table tbody tr:nth-child(even){background:#faf8fc}
+.data-table tbody tr:hover{background:var(--purple-soft)}
+.data-table td.num,.data-table th.num{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.data-table td.center,.data-table th.center{text-align:center}
+.table-wrap{overflow-x:auto;border-radius:10px;border:1px solid var(--rule)}
+.table-wrap .data-table{border:none;border-radius:0}
+.table-caption{caption-side:top;text-align:left;font-size:0.85rem;color:var(--muted);margin-bottom:6px}
+
+/* ---------- Hero stats strip ---------- */
+.statstrip{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:24px}
+@media (max-width:880px){.statstrip{grid-template-columns:repeat(2,1fr)}}
+.statstrip .pill{
+  background:rgba(255,255,255,0.10);border:1px solid rgba(255,255,255,0.18);
+  border-radius:10px;padding:12px;text-align:center;color:#fff;
+}
+.statstrip .pill .v{display:block;font-family:Georgia,serif;font-weight:700;font-size:1.4rem;color:var(--yellow)}
+.statstrip .pill .l{display:block;font-size:0.72rem;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.85);margin-top:2px}
+
+/* ---------- Photo placeholders ---------- */
+.ph{
+  display:flex;align-items:center;justify-content:center;
+  background:repeating-linear-gradient(45deg,#f1ecf8,#f1ecf8 8px,#e8e0f3 8px,#e8e0f3 16px);
+  color:var(--purple);font-family:Georgia,serif;font-weight:700;text-align:center;
+  border:1px dashed rgba(88,28,135,0.35);
+  border-radius:10px;min-height:140px;padding:18px;
+}
+.ph.tall{min-height:220px}
+.ph small{display:block;font-weight:500;font-size:0.78rem;color:var(--muted);margin-top:6px}
+
+/* ---------- Pill list ---------- */
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.pill{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:5px 11px;border-radius:999px;
+  font-size:0.78rem;font-weight:600;
+  background:var(--purple-soft);color:var(--purple-deep);border:1px solid #d8c4ee;
+}
+.pill.green{background:var(--green-soft);color:#0b6a3f;border-color:#c0e0ce}
+.pill.pink{background:var(--pink-soft);color:#a02e58;border-color:#f1c0d2}
+.pill.teal{background:var(--teal-soft);color:#0e6c87;border-color:#bddbe6}
+.pill.yellow{background:var(--yellow-soft);color:#7a5b06;border-color:#ecd884}
+.pill.charcoal{background:#eee;color:#333;border-color:#d9d9d9}
+
+/* ---------- Steps ---------- */
+.steps{counter-reset:step;display:grid;gap:14px}
+.step{
+  counter-increment:step;
+  display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:flex-start;
+  background:#fff;border:1px solid var(--rule);border-radius:10px;padding:16px;
+}
+.step::before{
+  content:counter(step);background:var(--purple);color:#fff;
+  width:38px;height:38px;display:flex;align-items:center;justify-content:center;
+  border-radius:50%;font-family:Georgia,serif;font-weight:700;flex-shrink:0;
+}
+.step h4{color:var(--purple);}
+.step.green::before{background:var(--green)}
+.step.pink::before{background:var(--pink)}
+.step.teal::before{background:var(--teal)}
+.step.yellow::before{background:var(--yellow);color:var(--charcoal)}
+
+/* ---------- Quote block ---------- */
+.quote-card{
+  background:#fff;border:1px solid var(--rule);border-left:5px solid var(--pink);
+  border-radius:10px;padding:18px;font-style:italic;color:var(--ink);margin:14px 0;
+  position:relative;
+}
+.quote-card .who{display:block;margin-top:10px;font-style:normal;font-weight:600;color:var(--purple);font-size:0.85rem}
+
+/* ---------- Footer ---------- */
+footer{
+  background:var(--purple-deep);color:rgba(255,255,255,0.92);
+  padding:48px 0;margin-top:0;
+}
+footer a{color:#fff;border-bottom:1px solid rgba(255,255,255,0.35)}
+footer a:hover{color:var(--yellow);border-bottom-color:var(--yellow)}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+@media (max-width:880px){.foot-grid{grid-template-columns:1fr}}
+.foot-grid h4{color:#fff;font-family:Inter,sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:1.4px;margin-bottom:12px}
+.foot-grid p, .foot-grid li{color:rgba(255,255,255,0.82)}
+.foot-bottom{
+  border-top:1px solid rgba(255,255,255,0.15);margin-top:30px;padding-top:18px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+  font-size:0.78rem;color:rgba(255,255,255,0.7);
+}
+
+/* ---------- Mini ribbon banner ---------- */
+.banner{
+  background:linear-gradient(90deg,var(--yellow),var(--pink));
+  color:var(--purple-deep);
+  padding:14px 0;text-align:center;font-weight:600;font-size:0.95rem;
+  border-bottom:1px solid rgba(0,0,0,0.08);
+}
+.banner span{font-family:Georgia,serif;font-weight:700}
+
+/* ---------- Anatomy: scroll progress ---------- */
+.progress{
+  position:fixed;left:0;top:0;height:3px;background:var(--pink);
+  width:0%;z-index:60;transition:width 0.05s linear;
+}
+
+/* ---------- Print friendliness ---------- */
+@media print{
+  .topbar,.progress,.banner{display:none}
+  section.slide{break-inside:avoid;page-break-inside:avoid;padding:24px 0;border:none}
+  .hero{padding:24px 0;background:#fff;color:var(--ink)}
+  .hero h1{color:var(--purple)}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<!-- ====================== TOP BAR ====================== -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      Plenary 3 · INNOVATHON 2026
+      <small>21 July 2026 · MPC @ MATRADE · Kuala Lumpur</small>
+    </div>
+    <nav class="navlinks">
+      <a href="#question">Question</a>
+      <a href="#framework">Framework</a>
+      <a href="#quickwins">Quick Wins</a>
+      <a href="#idsc">Case Study</a>
+      <a href="#champions">Champions</a>
+      <a href="#lessons">Lessons</a>
+      <a href="#forclinicians">For Clinicians</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <span class="eyebrow" style="color:var(--yellow)">PLENARY 3 · INNOVATHON 2026</span>
+    <h1>AI Transformation of Reward Culture<br/>&amp; Quick-Win Projects</h1>
+    <p class="lede">Experience in participating &amp; organising international AI competitions — and what Malaysian hospital teams can steal from the playbook next Monday morning.</p>
+
+    <div class="byline">
+      <div class="ava">H</div>
+      <div class="who">
+        <strong>Dr Ahmad Hakiim Jamaluddin (Ph.D.)</strong>
+        <span>Senior Lecturer · Statistics &amp; Data Science · Department of Mathematics &amp; Statistics · Universiti Putra Malaysia</span>
+      </div>
+    </div>
+
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#idsc">Jump to the case study</a>
+      <a class="btn btn-ghost" href="#lessons">Six lessons for INNOVATHON 2026 →</a>
+    </div>
+
+    <div class="statstrip" aria-label="IDSC 2026 at-a-glance">
+      <div class="pill"><span class="v">189</span><span class="l">Teams</span></div>
+      <div class="pill"><span class="v">605</span><span class="l">Hackers</span></div>
+      <div class="pill"><span class="v">5</span><span class="l">Countries</span></div>
+      <div class="pill"><span class="v">62</span><span class="l">Institutions</span></div>
+      <div class="pill"><span class="v">5</span><span class="l">Winners</span></div>
+      <div class="pill"><span class="v">4.42<span style="font-size:0.9rem">/5</span></span><span class="l">Experience</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="banner">
+  <span>168 finalists</span> across 62 institutions · <span>Fully online</span> · <span>Cross-border</span>: 🇲🇾 Malaysia · 🇮🇩 Indonesia · 🇦🇺 Australia · 🇮🇳 India · 🇹🇯 Tajikistan
+</div>
+
+<!-- ====================== BIO ====================== -->
+<section class="slide" id="bio">
+  <div class="wrap">
+    <span class="tag">Speaker</span>
+    <h2>A quick word about me</h2>
+    <div class="grid-2" style="margin-top:18px">
+      <div class="ph tall">
+        📷 Speaker portrait
+        <small>Replace with <code>assets/hakiim.jpg</code> if you have a close-up photo. Otherwise this grey placeholder keeps the layout stable.</small>
+      </div>
+      <div>
+        <p><strong>Where I come from.</strong> Grown up in Kedah, took pure sciences, and got hooked on what math could do for real decisions. Postgraduate life took me to <strong>UNSW Sydney</strong>; first job life began at UUM.</p>
+        <p><strong>Education.</strong> <a href="https://hakiimj.github.io" rel="noopener">Ph.D. Mathematics &amp; Statistics</a>, UNSW Sydney (2021–2025) — nominated for the Outstanding Ph.D. Theses Award. MSc Statistics &amp; BSc (Hons) Industrial Statistics at UUM — <em>Chancellor Gold Medal</em> (best overall undergraduate, CGPA 3.87 / 4.00).</p>
+        <p><strong>Now.</strong> Senior Lecturer in Statistics &amp; Data Science at UPM's <strong>Department of Mathematics &amp; Statistics</strong>, Statistical Data Science Group. Fellow of the <strong>UNSW AI Institute</strong> (fundamental data-science team) and core member of <strong>uDASH</strong>.</p>
+        <p><strong>Hats I wear right now:</strong></p>
+        <ul>
+          <li><strong>Organising Chair</strong> — International Data Science Challenge (IDSC) 2026.</li>
+          <li><strong>Education Sector Lead</strong> — AI Talent Working Group, <a href="https://www.digital.gov.my/" rel="noopener">National AI Office (NAIO)</a>, Ministry of Digital Malaysia.</li>
+          <li><strong>AI Research Fellow</strong> — Sengkang General Hospital, Singapore (2025).</li>
+          <li><strong>Visiting Lecturer</strong> — Universitas Brawijaya (UB), Indonesia (2026).</li>
+          <li><strong>External Expert Reviewer</strong> — BS Health Data Science Programme, Health Services Academy, Pakistan (2026).</li>
+        </ul>
+        <p><strong>Loves.</strong> Good math, good coffee (flat white, please), evening runs. And TEDx.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== THE BIG QUESTION ====================== -->
+<section class="slide" id="question">
+  <div class="wrap">
+    <span class="tag pink">The Big Question</span>
+    <h2>Why do some hospital teams ship extraordinary AI — and others quietly stall?</h2>
+    <div class="callout pink" style="margin-top:22px">
+      <p style="font-size:1.1rem;margin:0"><em>Most teams I meet are not short of ideas. They are short of <strong>oxygen</strong>: time, scoring rules, a clear winner's table, and someone senior clapping on stage day. So I built that oxygen — first as a contestant, then as a chair.</em></p>
+    </div>
+
+    <div class="grid-2" style="margin-top:24px">
+      <div class="card tinted-purple">
+        <h3>What stalls</h3>
+        <ul>
+          <li>No <strong>visible winner's table</strong> — "we'll see"</li>
+          <li>Rubric shifts <em>after</em> submissions</li>
+          <li>Judges who don't speak clinician</li>
+          <li>Prizes the finance team can't explain</li>
+          <li>No follow-up governance after Day 1</li>
+        </ul>
+      </div>
+      <div class="card tinted-green">
+        <h3>What flies</h3>
+        <ul>
+          <li>One <strong>sharp</strong> clinical pain point</li>
+          <li>Rubric published <em>before</em> the race</li>
+          <li>Mixed jury: clinician + statistician + journalist</li>
+          <li>Cash + certificate + a stage the family watches</li>
+          <li>A path to deploy by next quarter</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout yellow" style="margin-top:14px"><strong>A light joke.</strong> "If you build it, they will come." → No. <strong style="font-family:Georgia,serif">"If you reward it, they will come back — with friends."</strong> → That one is closer to the truth.</div>
+  </div>
+</section>
+
+<!-- ====================== FOUR-PILLAR FRAMEWORK ====================== -->
+<section class="slide" id="framework">
+  <div class="wrap">
+    <span class="tag teal">Framework</span>
+    <h2>The Reward Culture Framework — four pillars you cannot skip</h2>
+    <p>Skip <em>any one</em> of these and the engine stalls within a month. NHS folks — this is your long-standing quality-improvement logic in software form.</p>
+
+    <div class="grid-2" style="margin-top:18px">
+      <div class="card tinted-purple">
+        <div class="num">01</div>
+        <h3>Clear goal</h3>
+        <p>Pick <strong>one</strong> clinical pain point. Make it sharp. Everyone knows what they are running towards, and what they are <em>not</em> doing.</p>
+        <div class="pills"><span class="pill">Specific</span><span class="pill pink">Measurable</span><span class="pill green">Time-boxed</span></div>
+      </div>
+
+      <div class="card tinted-green">
+        <div class="num">02</div>
+        <h3>Fair rules</h3>
+        <p>Publish the <strong>rubric</strong> <em>before</em> the race. No mystery weighting, no late surprises. People respect what they can read.</p>
+        <div class="pills"><span class="pill green">Public</span><span class="pill green">Stable</span><span class="pill green">Auditable</span></div>
+      </div>
+
+      <div class="card tinted-pink">
+        <div class="num">03</div>
+        <h3>Real reward</h3>
+        <p>Cash, certificate, trophy — yes. But equally important: a <strong>stage</strong>, a <strong>story</strong> their mother can read in the newspaper, and time with the Director.</p>
+        <div class="pills"><span class="pill pink">Visible</span><span class="pill pink">Tangible</span><span class="pill pink">Career-relevant</span></div>
+      </div>
+
+      <div class="card tinted-teal">
+        <div class="num">04</div>
+        <h3>Public recognition</h3>
+        <p>Put it on the <strong>national stage</strong>. Senior judges, livestream, hospital press. Total visibility = total motivation.</p>
+        <div class="pills"><span class="pill teal">National press</span><span class="pill teal">Hospital C-suite</span><span class="pill teal">Patient press</span></div>
+      </div>
+    </div>
+
+    <div class="callout teal" style="margin-top:18px">
+      <strong>The hospital-grade framing.</strong> Translate the four pillars into Bahasa Melayu / KKM-speak and they become <em>matlamat jelas, aturan adil, ganjaran nyata, pengiktirafan terbuka</em> — the same four levers you already use when you onboard a new clinical service line.
+    </div>
+  </div>
+</section>
+
+<!-- ====================== QUICK-WIN PROJECTS ====================== -->
+<section class="slide" id="quickwins">
+  <div class="wrap">
+    <span class="tag green">Quick Wins</span>
+    <h2>Quick-Win Projects — small, fast, visible, useful</h2>
+    <p>If your AI roadmap lives entirely in a strategy deck, it dies there too. Here is the recipe that <em>actually finishes</em>.</p>
+
+    <div class="steps" style="margin-top:16px">
+      <div class="step green">
+        <div>
+          <h4>Small</h4>
+          <p>One team, one shelf, one pain point. No 18-month stealth project.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Fast</h4>
+          <p>Live in 2–4 weeks, not 2 years.</p>
+        </div>
+      </div>
+      <div class="step pink">
+        <div>
+          <h4>Visible</h4>
+          <p>A nurse can <em>touch</em> it on Monday morning. Not a slide in a steering committee.</p>
+        </div>
+      </div>
+      <div class="step teal">
+        <div>
+          <h4>Useful</h4>
+          <p>It already saves someone <strong>12 minutes a day</strong>.</p>
+        </div>
+      </div>
+      <div class="step yellow">
+        <div>
+          <h4>Documented</h4>
+          <p>A one-pager the Director can carry to the Ministry of Health Malaysia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout green" style="margin-top:18px">
+      <strong>Why quick wins win.</strong> They build <strong>trust</strong>; they <strong>free up budget</strong> for the bigger bets; they give junior staff an early <strong>win</strong> — and they stay; they print <strong>stories</strong> the hospital can carry up the chain; and they create a <strong>track record</strong> for next year's grant application. <em>The big AI strategy starts here, not at the whiteboard.</em>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== IDSC 2026 CASE STUDY ====================== -->
+<section class="slide" id="idsc">
+  <div class="wrap">
+    <span class="tag" style="background:var(--purple-deep)">Case Study</span>
+    <h2>IDSC 2026 — "Mathematics for Hope in Healthcare"</h2>
+    <p>The International Data Science Challenge 2026, themed <em>"Mathematics for Hope in Healthcare,"</em> is a fully online global challenge hosted by <strong>Universiti Putra Malaysia (UPM)</strong> in alliance with three Indonesian co-organisers and PERSAMA. It ran for 52 days, end-to-end (25 Feb – 17 Apr 2026).</p>
+
+    <div class="grid-2" style="margin-top:18px;gap:28px">
+      <div class="ph tall">
+        📷 IDSC 2026 logo / banner
+        <small>Replace with <code>assets/idsc-logo.png</code> when publishing.</small>
+      </div>
+
+      <div>
+        <h3>Built by</h3>
+        <ul>
+          <li><strong>Host:</strong> Department of Mathematics &amp; Statistics, Universiti Putra Malaysia (UPM)</li>
+          <li><strong>Co-organisers:</strong> UNAIR (Surabaya), UNMUL (Samarinda), UB (Malang)</li>
+          <li><strong>Partner:</strong> PERSAMA — Persatuan Sains Matematik Malaysia</li>
+          <li><strong>Format:</strong> Fully online, two stages, free to enter</li>
+          <li><strong>Tight loop:</strong> Registration → Stage 1 → Top 10 → Grand Final on 14 April 2026</li>
+        </ul>
+        <h3 style="margin-top:14px">Datasets (one pick per team)</h3>
+        <ul>
+          <li>Hillel Yaffe Glaucoma Dataset (HYGD) — retinal fundus, ophthalmology</li>
+          <li>12-Lead ECG for Brugada Syndrome — cardiac arrhythmia</li>
+          <li>P300-based BCI (bigP3BCI) — EEG / neural signals</li>
+          <li>Myocardial Perfusion SPECT — cardiac nuclear imaging</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout pink" style="margin-top:18px">
+      <strong>Why this matters as a case study.</strong> It is fully online, cross-border, free to enter, entirely academician + student-led, judged on real clinical safety, published in the national press — and reusable. <a href="https://dewankosmik.jendeladbp.my/2026/04/17/23048/" rel="noopener" target="_blank">Featured in Dewan Kosmik by Dewan Bahasa dan Pustaka (DBP)</a>.
+    </div>
+  </div>
+</section>
+
+<!-- ====================== NUMBERS ====================== -->
+<section class="slide" id="numbers">
+  <div class="wrap">
+    <span class="tag teal">By the numbers</span>
+    <h2>IDSC 2026 — the proof, not the promise</h2>
+
+    <h3 style="margin-top:18px">Operational diagnostics</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th>Metric</th><th class="num">Value</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Total registered teams</td><td class="num">189 teams</td></tr>
+        <tr><td>Total participants (all team-member affiliations)</td><td class="num">605 hackers</td></tr>
+        <tr><td>Teams progressed to Stage 1</td><td class="num">131 teams</td></tr>
+        <tr><td>Complete final technical projects submitted</td><td class="num">129 teams</td></tr>
+        <tr><td>Top 10 finalist teams shortlisted</td><td class="num">10 teams (~ top 5% elite tier)</td></tr>
+        <tr><td>Unique global institutions represented</td><td class="num">62 entities (61 universities + 1 industry org)</td></tr>
+        <tr><td>Geographic footprint</td><td class="num">5 countries — 🇲🇾 🇮🇩 🇦🇺 🇮🇳 🇹🇯</td></tr>
+        <tr><td>Undergraduate-led teams</td><td class="num">172 teams · 91% of field</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Team configurations</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th>Team roster</th><th class="num">Teams</th><th class="num">%</th><th class="num">Total headcount</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>4 members</td><td class="num">86</td><td class="num">45.5%</td><td class="num">344</td></tr>
+        <tr><td>3 members</td><td class="num">55</td><td class="num">29.1%</td><td class="num">165</td></tr>
+        <tr><td>2 members</td><td class="num">48</td><td class="num">25.4%</td><td class="num">96</td></tr>
+        <tr style="background:var(--purple-soft)"><td><strong>Total</strong></td><td class="num"><strong>189</strong></td><td class="num"><strong>100.0%</strong></td><td class="num"><strong>605</strong></td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Top 10 campus powerhouses (by teams led)</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th class="num">#</th><th>Institution</th><th>Country</th><th class="num">Teams led</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="num">1</td><td>Universitas Airlangga (UNAIR)</td><td>🇮🇩 Indonesia</td><td class="num">18</td></tr>
+        <tr><td class="num">2</td><td>Universiti Putra Malaysia (UPM)</td><td>🇲🇾 Malaysia</td><td class="num">15</td></tr>
+        <tr><td class="num">3 (tie)</td><td>Universiti Malaya (UM)</td><td>🇲🇾 Malaysia</td><td class="num">14</td></tr>
+        <tr><td class="num">3 (tie)</td><td>Universitas Negeri Surabaya (UNESA)</td><td>🇮🇩 Indonesia</td><td class="num">14</td></tr>
+        <tr><td class="num">5</td><td>Universitas Singaperbangsa Karawang (UNSIKA)</td><td>🇮🇩 Indonesia</td><td class="num">13</td></tr>
+        <tr><td class="num">6</td><td>Universitas Brawijaya (UB)</td><td>🇮🇩 Indonesia</td><td class="num">11</td></tr>
+        <tr><td class="num">7</td><td>Universiti Kebangsaan Malaysia (UKM)</td><td>🇲🇾 Malaysia</td><td class="num">9</td></tr>
+        <tr><td class="num">8</td><td>Universitas Mulawarman (UNMUL)</td><td>🇮🇩 Indonesia</td><td class="num">7</td></tr>
+        <tr><td class="num">9 (tie)</td><td>Universiti Sains Malaysia (USM)</td><td>🇲🇾 Malaysia</td><td class="num">5</td></tr>
+        <tr><td class="num">9 (tie)</td><td>Universitas Gadjah Mada (UGM)</td><td>🇮🇩 Indonesia</td><td class="num">5</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Dataset battlefield</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th>Dataset &amp; clinical focus</th><th class="num">Teams</th><th class="num">%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Hillel Yaffe Glaucoma Dataset (HYGD)</strong> — retinal fundus</td><td class="num">97</td><td class="num">51.3%</td></tr>
+        <tr><td><strong>12-Lead ECG for Brugada Syndrome</strong> — cardiac arrhythmia</td><td class="num">97</td><td class="num">51.3%</td></tr>
+        <tr><td><strong>P300-based BCI (bigP3BCI)</strong> — EEG / neural signals</td><td class="num">44</td><td class="num">23.3%</td></tr>
+        <tr><td><strong>Myocardial Perfusion SPECT</strong> — cardiac nuclear imaging</td><td class="num">39</td><td class="num">20.6%</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Participant satisfaction (out of 5)</h3>
+    <div class="grid-4" style="margin-top:6px">
+      <div class="card tinted-purple"><div class="num">4.42</div><p>Overall experience</p></div>
+      <div class="card tinted-green"><div class="num">4.46</div><p>Workshop helpfulness</p></div>
+      <div class="card tinted-pink"><div class="num">4.25</div><p>Format organisation</p></div>
+      <div class="card tinted-teal"><div class="num">3.99</div><p>Confidence in noisy data</p></div>
+    </div>
+
+    <div class="callout teal" style="margin-top:18px">
+      <strong>96%</strong> of all respondents confirmed that the challenge either <strong>escalated or solidified</strong> their path towards Healthcare AI — the highest "intent-to-pursue" signal we have ever recorded for a student competition at UPM.
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CHAMPIONS ====================== -->
+<section class="slide" id="champions">
+  <div class="wrap">
+    <span class="tag green">Winners</span>
+    <h2>Champions &amp; the people who built them up</h2>
+
+    <h3 style="margin-top:14px">Top 5 of IDSC 2026 (Grand Final — 14 April 2026)</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th class="num">Place</th><th>Team</th><th>Institution</th><th class="num">Prize (RM)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="num"><strong>1st (Champion)</strong></td><td><strong>Bioinformers</strong></td><td>Universiti Malaya (UM)</td><td class="num">500</td></tr>
+        <tr><td class="num">2nd</td><td><strong>GAMA-BCI</strong></td><td>Universitas Gadjah Mada (UGM)</td><td class="num">300</td></tr>
+        <tr><td class="num">3rd</td><td><strong>MultiU</strong></td><td>UM · USM · UPM</td><td class="num">200</td></tr>
+        <tr><td class="num">4th</td><td><strong>BANG SADA</strong></td><td>Universitas Brawijaya (UB)</td><td class="num">100</td></tr>
+        <tr><td class="num">5th</td><td><strong>Ventriculearn-11</strong></td><td>UKM · Universitas Bengkulu</td><td class="num">100</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Full Top 10 Finalist Roster</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th>Team</th><th>Members</th><th>Institution</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>GlaucoNet</strong></td><td>Khairunnisa Maharani, Rahmah Gustriana Deka</td><td>Institut Teknologi Sumatera (ITERA)</td></tr>
+        <tr><td><strong>Ventriculearn-11</strong></td><td>Ahmad Hathim, Anis Syauqina, Elvira Yunita, Siti Nor Amira</td><td>UKM · Universitas Bengkulu</td></tr>
+        <tr><td><strong>Bioinformers</strong></td><td>Kumanan, Wisely, Khoo Li Ying, Kavita</td><td>Universiti Malaya (UM)</td></tr>
+        <tr><td><strong>Team 108</strong></td><td>Lee Pei En, Ng Zhi Ying, Sim Yu Yin, Yah Tian Ling</td><td>Universiti Malaya (UM)</td></tr>
+        <tr><td><strong>VZ</strong></td><td>Izzar Sully Nashrudin, Risma Muslimah</td><td>UIN Maulana Malik Ibrahim Malang</td></tr>
+        <tr><td><strong>MultiU</strong></td><td>Saw Yong Quan, Tan Shan Qi, Hoe Zhi Wan, Hong Tze Loon</td><td>UM · USM · UPM</td></tr>
+        <tr><td><strong>abjrit</strong></td><td>Ali Zainal Abidin, Najwa Fadhilah, Maulida Rahmi, Rafidah Khoirunnisa</td><td>Institut Teknologi Sepuluh Nopember (ITS)</td></tr>
+        <tr><td><strong>GAMA-BCI</strong></td><td>Farichaturrifqi Aryanitasari, Muhana Fawwazy Ilyas, Hamzah Arman Husni, Aulia Gita Pratiwi</td><td>Universitas Gadjah Mada (UGM)</td></tr>
+        <tr><td><strong>BANG SADA</strong></td><td>Nathanael, Adinda, Bonfillo, Keenan</td><td>Universitas Brawijaya (UB)</td></tr>
+        <tr><td><strong>FD2</strong></td><td>Ahmad Naim, Muhammad Akmal, Ahmad Mukhlis, Muhammad Shahril Adan</td><td>Universiti Malaya (UM)</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Workshop leaders — the people who set the tone (14 Mar 2026, International Mathematics Day)</h3>
+    <div class="grid-2" style="margin-top:8px">
+      <div class="card tinted-purple">
+        <h4>Data Science &amp; Machine Learning</h4>
+        <p><strong>Assoc. Prof. Ts. Dr Shukor Sanim Mohd Fauzi</strong> — UiTM Perlis. Advisory Group Member, <strong>National AI Office (NAIO)</strong>, Ministry of Digital Malaysia. Former Rector of UiTM Perlis; Chairman of the Northern Region Big Data Research Group. Secured over <strong>RM 4.1 million</strong> in research funds with <strong>161</strong> scientific publications. Applies custom <strong>CNN pipelines</strong> to deep predictive environments (e.g. wildfire forecasting). Workshop helpfulness: <strong>4.46 / 5</strong>.</p>
+      </div>
+      <div class="card tinted-pink">
+        <h4>Presentation Skills</h4>
+        <p><strong>Datin Dr Ghazila Ghazi</strong> — Senior Lecturer, Faculty of Modern Languages &amp; Communication, UPM. Specializes in political, public oration &amp; law enforcement communication. Co-developed digital policing frameworks with the Royal Malaysia Police (<strong>VSP platform</strong>). Former broadcast journalist on TV3's <em>999</em> and <em>Majalah 3</em>. Taught teams how to translate algorithmic accuracy into a story a Director will remember.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:22px">Stage 2 — expert judging panel</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th>Judge</th><th>Affiliation</th><th>Assigned domain</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Prof Dr Nur Chamidah</strong></td><td>UNAIR · Professor of Statistics</td><td>C1 — Mathematical &amp; Algorithmic Rigor (25 pts)</td></tr>
+        <tr><td><strong>Assoc Prof Dr Shukor Sanim</strong></td><td>UiTM · Assoc. Prof Software Engineering</td><td>C2 — Model Performance (20 pts) · C4 — Innovation (15 pts)</td></tr>
+        <tr><td><strong>Dr Nasheef</strong></td><td>Hospital Dalat · Director (Sarawak)</td><td>C3 — Problem Definition &amp; Healthcare Relevance (15 pts)</td></tr>
+        <tr><td><strong>Dr Naim</strong></td><td>Hospital Tengku Permaisuri Norashikin · Deputy Director</td><td>C5 — Clinical Interpretability &amp; Safety (10 pts)</td></tr>
+        <tr><td><strong>Dr Ghazila</strong></td><td>UPM · Senior Lecturer, Communication</td><td>C6 — "Hope" Impact (10 pts) · C7 — Presentation Quality (5 pts)</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">The full Stage 1 preliminary panel (33 judges)</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead><tr><th class="num">#</th><th>Expert</th><th>Institution</th><th class="num">#</th><th>Expert</th><th>Institution</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td>Ahmad Hakiim Jamaluddin</td><td>UPM</td><td class="num">18</td><td>Nariza Wanti Wulan Sari</td><td>UNMUL</td></tr>
+        <tr><td class="num">2</td><td>Nur Ezlin Zamri</td><td>UPM</td><td class="num">19</td><td>Shahirah Abu Bakar</td><td>UTM</td></tr>
+        <tr><td class="num">3</td><td>Nur Syahirah Wahid</td><td>UPM</td><td class="num">20</td><td>Rusya Iryanti Yahaya</td><td>UUM</td></tr>
+        <tr><td class="num">4</td><td>Siti Maghfirotul Ulyah, Ph.D</td><td>UNAIR</td><td class="num">21</td><td>Nor Ain Azeany Mohd Nasir</td><td>UPNM</td></tr>
+        <tr><td class="num">5</td><td>Toha Saifudin</td><td>UNAIR</td><td class="num">22</td><td>Hafizah Farhah Saipan @ Saipol</td><td>UTM</td></tr>
+        <tr><td class="num">6</td><td>M. Fariz Fadillah Mardianto</td><td>UNAIR</td><td class="num">23</td><td>Samsul Ariffin Abdul Karim</td><td>UUM</td></tr>
+        <tr><td class="num">7</td><td>Marisa Rifada, M.Si</td><td>UNAIR</td><td class="num">24</td><td>Ts. Dr Latifah Abd Latib</td><td>UPM</td></tr>
+        <tr><td class="num">8</td><td>Hani Syahida Zulkafli</td><td>UPM</td><td class="num">25</td><td>Saadi Ahmad Kamaruddin</td><td>UUM</td></tr>
+        <tr><td class="num">9</td><td>Syaiful Anam</td><td>UB</td><td class="num">26</td><td>Syarifah Zyurina Nordin</td><td>UTM</td></tr>
+        <tr><td class="num">10</td><td>Avin Maulana</td><td>UB</td><td class="num">27</td><td>Mohamad Huzaifah Dzubaidi</td><td>UUM</td></tr>
+        <tr><td class="num">11</td><td>Hilmi Aziz Bukhori</td><td>UB</td><td class="num">28</td><td>Nurhazimah Nazmi</td><td>UTM</td></tr>
+        <tr><td class="num">12</td><td>Nur Silviyah Rahmi, M.Stat</td><td>UB</td><td class="num">29</td><td>Siti Nur Ainsyah Ghani</td><td>UUM</td></tr>
+        <tr><td class="num">13</td><td>Muhammad Aslam Mohd Safari</td><td>UPM</td><td class="num">30</td><td>Nur Syahirah Ibrahim</td><td>UUM</td></tr>
+        <tr><td class="num">14</td><td>Meirinda Fauziyah</td><td>UNMUL</td><td class="num">31</td><td>Dita Amelia</td><td>UNAIR</td></tr>
+        <tr><td class="num">15</td><td>Andrea Tri Rian Dani</td><td>UNMUL</td><td class="num">32</td><td>Mohd Shafie Mustafa</td><td>UPM</td></tr>
+        <tr><td class="num">16</td><td>Memi Nor Hayati</td><td>UNMUL</td><td class="num">33</td><td>Farid Zamani Che Rose</td><td>UPM</td></tr>
+        <tr><td class="num">17</td><td>Regita Putri Permata</td><td>Telkom Univ.</td><td class="num">—</td><td>—</td><td>—</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== RUBRIC ====================== -->
+<section class="slide" id="rubric">
+  <div class="wrap">
+    <span class="tag yellow">Rubric</span>
+    <h2>The rubric we used — published on Day 1, kept till Day 60</h2>
+    <p>Total available: <strong>100 pts</strong>. The categories below were <em>publicly visible</em> from the registration page, so teams could strategise around clinical safety and "hope" impact (not just raw accuracy).</p>
+
+    <div class="grid-2" style="margin-top:18px">
+      <div class="table-wrap">
+      <table class="data-table">
+        <caption class="table-caption">Stage 1 &amp; Stage 2 unified evaluation rubric</caption>
+        <thead>
+          <tr><th>Criterion</th><th class="num">Weightage</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Mathematical / Algorithmic Rigor</td><td class="num">25%</td></tr>
+          <tr><td>Model Performance &amp; Validation</td><td class="num">20%</td></tr>
+          <tr><td>Problem Definition &amp; Healthcare Relevance</td><td class="num">15%</td></tr>
+          <tr><td>Innovation &amp; Creativity</td><td class="num">15%</td></tr>
+          <tr><td>Clinical Interpretability &amp; Safety</td><td class="num">10%</td></tr>
+          <tr><td>"Hope" Impact &amp; Practical Implications</td><td class="num">10%</td></tr>
+          <tr><td>Presentation Quality &amp; Clarity</td><td class="num">5%</td></tr>
+          <tr style="background:var(--purple-soft)"><td><strong>Total</strong></td><td class="num"><strong>100%</strong></td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <div>
+        <h3>Tie-break protocol</h3>
+        <ol>
+          <li><strong>Higher</strong> score on C1 — Math/Algorithmic Rigor.</li>
+          <li>Then <strong>higher</strong> score on C3 — Problem Definition &amp; Clinical Relevance.</li>
+          <li>Then <strong>higher</strong> score on C5 — Clinical Interpretability &amp; Safety.</li>
+          <li>Final: rapid-fire deliberation panel + majority vote by the 5 judges.</li>
+        </ol>
+        <div class="callout yellow" style="margin-top:10px"><strong>Why this matters.</strong> Three of the seven categories explicitly reward <em>clinical literacy</em>. Treating those as "soft criteria" is how competitions promote clinically useless models. Don't do it.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== WHAT THE JUDGES WROTE ====================== -->
+<section class="slide" id="judgespeak">
+  <div class="wrap">
+    <span class="tag pink">Judges' Notes</span>
+    <h2>What the judges wrote on the winners</h2>
+    <p>Cross-referenced from the master evaluation board spreadsheet. These four quotes are the checkpoints the next-generation rubric should keep rewarding.</p>
+
+    <div class="quote-card"><em>"Delivers an exceptionally rigorous approach to Brain-Computer Interface (BCI) technology for ALS patients. The team successfully addressed a major clinical bottleneck: the need for daily BCI recalibration. Brilliant presentation, and the models are highly feasible for direct clinical usage."</em><span class="who">— On Bioinformers (1st place) · BCI track</span></div>
+
+    <div class="quote-card" style="border-left-color:var(--green)"><em>"Presents a highly sophisticated, multimodal approach to ALS communication by fusing EEG and eye-tracking data. Their standout triumph is the design of an uncertainty-aware safety gate and their rigorous zero-shot evaluation on actual ALS patients — beautifully bridges algorithmic accuracy and clinical trust."</em><span class="who">— On GAMA-BCI (2nd place) · BCI track</span></div>
+
+    <div class="quote-card" style="border-left-color:var(--teal)"><em>"The team excels in translating physiological realities into smart data science decisions, brilliantly targeted the exact metric primary care physicians care about. By achieving a 94.5% NPV, the model safely cleared 69 healthy patients — successfully achieving their goal of providing safe 'discharge confidence' to front-liner Medical Officers."</em><span class="who">— On Ventriculearn-11 (5th place) · SPECT track</span></div>
+
+    <div class="quote-card" style="border-left-color:var(--yellow)"><em>"The team implemented a 'Threshold Innovation' strategy, explicitly defining their problem as creating a 'zero-miss' safety tool where False Negatives are clinically unacceptable. 100% recall on an independent test set with patient-level validation directly addresses the highest clinical safety concern."</em><span class="who">— On Team 108 · ECG track</span></div>
+
+    <div class="quote-card" style="border-left-color:var(--purple)"><em>"Their problem definition is exquisitely structured around the physiological reality that patients are the core unit of diagnosis, not individual images. Moved from image-level to patient-level decision-making — reducing false negatives from 32 down to 2."</em><span class="who">— On BANG SADA · Glaucoma track</span></div>
+
+    <div class="quote-card" style="border-left-color:var(--pink)"><em>"Grad-CAM explicitly demonstrated with anatomically correct activation on the optic disc for positive cases, and appropriately diffuse activation for negatives. The team articulated XAI in clinically meaningful terms — 'auditable, anatomically grounded AI'."</em><span class="who">— On GlaucoNet · Glaucoma track</span></div>
+  </div>
+</section>
+
+<!-- ====================== LESSONS FOR INNOVATHON ====================== -->
+<section class="slide" id="lessons">
+  <div class="wrap">
+    <span class="tag">For INNOVATHON 2026</span>
+    <h2>Six quick lessons I will steal for INNOVATHON 2026</h2>
+    <p>If you only have takeaways from this talk, take these six — and apply them before lunch.</p>
+
+    <div class="steps" style="margin-top:18px">
+      <div class="step">
+        <div>
+          <h4>1. Reward publicly and on the same day</h4>
+          <p>RM 500 / 300 / 200 <em>plus</em> MPC case-study slot, certificate, trophy. Make the win feel like a national exam result — families watch the livestream.</p>
+        </div>
+      </div>
+      <div class="step green">
+        <div>
+          <h4>2. Publish the rubric early</h4>
+          <p>Eight criteria: problem, creativity, user-friendliness, deployment, validation, outcome, scalability, sustainability. No surprises on stage day.</p>
+        </div>
+      </div>
+      <div class="step pink">
+        <div>
+          <h4>3. Use legitimate judges</h4>
+          <p>Mix clinicians, statisticians, journalists, policy people. <strong>Domain beats glamour every time.</strong></p>
+        </div>
+      </div>
+      <div class="step teal">
+        <div>
+          <h4>4. Mentor in public, online, three weeks</h4>
+          <p>Fixes 80% of weak submissions at zero extra cost. Just do it.</p>
+        </div>
+      </div>
+      <div class="step yellow">
+        <div>
+          <h4>5. Tell stories, not scores</h4>
+          <p>Judges love a "<strong>100% recall</strong>" headline; nurses love a "<strong>52-second turnaround</strong>" headline. Lead with the turnaround.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>6. Celebrate the closing ceremony like a national award</h4>
+          <p>Floor managers, livestream, photos, free lunch, hashtags. Treat the closing like an MPC ceremony, not a meeting room.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout green" style="margin-top:18px">
+      <strong>Bonus tip for Malaysian hospital committees.</strong> Build the rubric <em>with</em> the Senior Consultants in the room. Same coffee, same table. Avoid the meeting-after-the-meeting culture that quietly kills innovation budgets by August.
+    </div>
+  </div>
+</section>
+
+<!-- ====================== FOR INNOVATHON COMPETITORS ====================== -->
+<section class="slide" id="forcompetitors">
+  <div class="wrap">
+    <span class="tag teal">For INNOVATHON competitors</span>
+    <h2>To the teams competing today — read this twice</h2>
+    <p>If you are pitching in this hall this week, here is what the IDSC 2026 evaluation board actually rewarded — straight from the judges' comments and the participant feedback log.</p>
+
+    <div class="grid-2" style="margin-top:18px">
+      <div class="card tinted-green">
+        <h3>What to bring on stage</h3>
+        <ol>
+          <li><strong>One specific patient journey.</strong> Not "cardiology" — "the ED triage queue at HTPN Kajang on a Saturday night."</li>
+          <li><strong>One specific clinical safety number.</strong> Recall, NPV, false-negative cost. Not accuracy.</li>
+          <li><strong>One specific clinician workflow change.</strong> What does the nurse stop doing? When does the consultant get paged less?</li>
+          <li><strong>One specific deployment plan.</strong> Which station? Which kiosk? Which phone?</li>
+          <li><strong>One story for the Director's mother.</strong> Don't let the rubric eat your humanity.</li>
+        </ol>
+      </div>
+
+      <div class="card tinted-pink">
+        <h3>What kills the pitch</h3>
+        <ul>
+          <li>Models with no patient-level validation (only image-level F1).</li>
+          <li>"We used a transformer" with no clinical-safety narrative.</li>
+          <li>Datasets patched together from open sources without consent trail.</li>
+          <li>Promising deployment "at Hospital X" without a single line of clinical engagement.</li>
+          <li>Ignoring the NPV — NPV is what makes the Medical Officer sleep at night.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout pink" style="margin-top:18px">
+      <strong>What participants told us mattered most.</strong> <em>"Mathematics was not only about formulas, but about transforming medical data into meaningful insights. We learned that healthcare technology must balance accuracy, fairness, and responsibility. A model with high accuracy is still not enough if it cannot be trusted or applied fairly to different patients. Errors can affect real lives."</em> — Team DMAZA.
+    </div>
+
+    <div class="callout teal" style="margin-top:10px">
+      <strong>Another participant's framing.</strong> <em>"A single false negative in Brugada Syndrome could mean losing the opportunity to prevent sudden cardiac death. We prioritized patient safety and clinical utility over maximizing performance metrics. For our team, 'hope' means using AI to give doctors better tools and a greater chance to save lives."</em> — Team Muadz.
+    </div>
+  </div>
+</section>
+
+<!-- ====================== FOR CLINICIANS ====================== -->
+<section class="slide" id="forclinicians">
+  <div class="wrap">
+    <span class="tag green">For Malaysian clinicians</span>
+    <h2>To the clinicians in the room — the Monday-morning version</h2>
+    <p>You don't need a national AI strategy to start. You need a small Team A that finishes one quick-win by next month, and a Team B that promises to copy it.</p>
+
+    <div class="grid-3" style="margin-top:18px">
+      <div class="card tinted-purple">
+        <h3>Build the rubric on a napkin</h3>
+        <p>Sit with two consultants, one Medical Officer, one nurse, one IT lead. Write down what "<em>good enough to use tomorrow morning</em>" looks like. That is your rubric.</p>
+      </div>
+      <div class="card tinted-green">
+        <h3>Find three pain points — pick one</h3>
+        <p>Don't run a hospital-wide brainstorm. Run a 30-minute round-table with five senior people. Pick the one pain point that costs the most <em>in minutes</em>, not in theory.</p>
+      </div>
+      <div class="card tinted-pink">
+        <h3>Reward in front of the DG</h3>
+        <p>The most under-used reward in Malaysian healthcare is <strong>visibility</strong>. When the DG, the State Health Director, and the press are in the room, the team will remember it for ten years.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:22px">A 90-day quick-win ladder for a Malaysian hospital</h3>
+    <div class="steps">
+      <div class="step green">
+        <div><h4>Days 1–14 — pick the pain</h4><p>Round-table with senior clinicians; lock one pain point with measurable minutes-saved per shift. Locks: rubric, dataset, success metric.</p></div>
+      </div>
+      <div class="step">
+        <div><h4>Days 15–45 — small team, fast build</h4><p>One data scientist, one domain expert, one UX. Build a <em>shadow-mode</em> tool — it predicts, but the clinician still decides.</p></div>
+      </div>
+      <div class="step pink">
+        <div><h4>Days 46–70 — pilot on one ward / one clinic</h4><p>Track three numbers: minutes saved, recall, and clinician trust (yes/no). Publish the dashboard internally, in plain Malay/English.</p></div>
+      </div>
+      <div class="step teal">
+        <div><h4>Days 71–90 — celebrate publicly, then scale</h4><p>Run a tiny mini-innovathon with the next ward. Award <em>visibility</em> + a small certificate + a coffee with the HOD. Recruit the next Team A.</p></div>
+      </div>
+    </div>
+
+    <div class="callout teal">
+      <strong>The compounding effect.</strong> One quick win in 90 days = four quick wins in 12 months = a department that <em>actually</em> adopts AI on its own terms. The NHS used this pattern for decades. Malaysian hospitals can too — without massive capex, without a vendor lock-in, without a 5-year roadmap.
+    </div>
+  </div>
+</section>
+
+<!-- ====================== ORGANISING COMMITTEE ====================== -->
+<section class="slide" id="committee">
+  <div class="wrap">
+    <span class="tag charcoal">Behind the Scenes</span>
+    <h2>How we organised IDSC 2026 — the structural framework</h2>
+
+    <div class="grid-2" style="margin-top:18px">
+      <div>
+        <h3>Organising institutions</h3>
+        <ul>
+          <li><strong>Main:</strong> Dept. of Mathematics &amp; Statistics, Universiti Putra Malaysia (UPM)</li>
+          <li><strong>Co:</strong> Dept. of Mathematics, Universitas Airlangga (UNAIR), Indonesia</li>
+          <li><strong>Co:</strong> Dept. of Mathematics, Universitas Mulawarman (UNMUL), Indonesia</li>
+          <li><strong>Co:</strong> Dept. of Mathematics, Universitas Brawijaya (UB), Indonesia</li>
+          <li><strong>Partner:</strong> PERSAMA</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Grand-Final command centre</h3>
+        <p>Department of Mathematics &amp; Statistics Meeting Room, UPM · Broadcast and jury managed on-site, all teams joined live from five countries.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:22px">Advisory board &amp; executive committee</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr><th>Board</th><th>Officer</th><th>Affiliation</th></tr>
+      </thead>
+      <tbody>
+        <tr><td rowspan="2"><strong>Academic Advisors</strong></td><td>Prof. Dr Norihan Md Arifin</td><td>UPM</td></tr>
+        <tr><td>Prof. Dr Leong Wah June</td><td>UPM</td></tr>
+        <tr><td rowspan="2"><strong>Industry Advisors</strong></td><td>Dr Izzun Nasheef M. Hasmuri</td><td>Director · Hospital Dalat, Sarawak</td></tr>
+        <tr><td>Dr Naim Abdul Malek</td><td>Deputy Director · Hosp. Tengku Permaisuri Norashikin</td></tr>
+        <tr><td rowspan="3"><strong>Core Leadership</strong></td><td>Dr Ahmad Hakiim Jamaluddin</td><td>Organising Chair (UPM)</td></tr>
+        <tr><td>Dr Farid Zamani Che Rose</td><td>Co-Organising Chair (UPM)</td></tr>
+        <tr><td>Dr Mohd Shafie Mustafa</td><td>Co-Organising Chair (UPM)</td></tr>
+        <tr><td rowspan="2"><strong>Secretariat Execs</strong></td><td>Dr Nur Syahirah Wahid</td><td>Secretariat Lead (UPM)</td></tr>
+        <tr><td>Ms Nur Aqilah Mohd Noordin</td><td>Secretariat Lead (UPM)</td></tr>
+        <tr><td rowspan="2"><strong>Finance Execs</strong></td><td>Dr Nur Ezlin Zamri</td><td>Finance Lead (UPM)</td></tr>
+        <tr><td>Dr Hani Syahida Zulkafli</td><td>Finance Lead (UPM)</td></tr>
+        <tr><td rowspan="4"><strong>Judging Exec Board</strong></td><td>Dr Muhammad Aslam Mohd Safari</td><td>Judging Lead (UPM)</td></tr>
+        <tr><td>Dr M. Fariz Fadillah Mardianto, M.Si</td><td>UNAIR Representative</td></tr>
+        <tr><td>Dr (Cand) Andrea Tri Rian Dani</td><td>UNMUL Representative</td></tr>
+        <tr><td>Assoc. Prof. Dr Syaiful Anam</td><td>UB Representative</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:22px">Student organising taskforce</h3>
+    <div class="grid-4">
+      <div class="card tinted-purple"><h4>Technical &amp; Submissions</h4><p>Aleeya Natasya Azahar · Nuratika Anuar</p></div>
+      <div class="card tinted-teal"><h4>Secretariat &amp; Participants</h4><p>Sametha Sivalingam · Nurul Ayuni Omar · Francis Lim Beng Cong</p></div>
+      <div class="card tinted-pink"><h4>Publicity &amp; Design</h4><p>Mohamad Shahrul Ikram · Thurgashini Gunalan · Nurul Edlina Shazwan</p></div>
+      <div class="card tinted-green"><h4>Finance &amp; Admin</h4><p>Puviniyaraj S.Rajendran · Cheah Hui Yin</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== IMPACT & PRESS ====================== -->
+<section class="slide" id="impact">
+  <div class="wrap">
+    <span class="tag teal">National Impact</span>
+    <h2>The "Hope" algorithm — national press &amp; career outcomes</h2>
+    <p>The event's impact was officially captured by <a href="https://dewankosmik.jendeladbp.my/2026/04/17/23048/" rel="noopener" target="_blank">Dewan Kosmik by Dewan Bahasa dan Pustaka (DBP)</a>, Malaysia's national language and publishing agency. That is the kind of visibility the Reward Culture Framework calls for in pillar #4.</p>
+
+    <h3 style="margin-top:18px">Career-trajectory signal</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead><tr><th>Response</th><th class="num">% of respondents</th></tr></thead>
+      <tbody>
+        <tr><td>Significantly increased — now plan to pursue Healthcare AI</td><td class="num">42%</td></tr>
+        <tr><td>Moderately increased</td><td class="num">29%</td></tr>
+        <tr><td>Confirmed existing interest</td><td class="num">25%</td></tr>
+        <tr><td>No change</td><td class="num">4%</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3 style="margin-top:18px">A few sample cross-university teams (from the official registry)</h3>
+    <div class="table-wrap">
+    <table class="data-table">
+      <thead><tr><th class="num">Team#</th><th>Leader Institution</th><th>Level</th><th>All institutions in the alliance</th></tr></thead>
+      <tbody>
+        <tr><td class="num">1</td><td>Braincore Indonesia</td><td>PG</td><td>Braincore Indonesia · Universitas Brawijaya (UB)</td></tr>
+        <tr><td class="num">13</td><td>Universiti Kebangsaan Malaysia</td><td>PG</td><td>Universitas Bengkulu · UKM</td></tr>
+        <tr><td class="num">85</td><td>UKM</td><td>UG</td><td>Anna University (India) · UKM</td></tr>
+        <tr><td class="num">112</td><td>Universitas Brawijaya (UB)</td><td>UG</td><td>UB · Universitas Udayana (UNUD)</td></tr>
+        <tr><td class="num">140</td><td>UIN Malang</td><td>UG</td><td>Dushanbe Innovation Institute (Tajikistan) · UIN Malang</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CONTACT ====================== -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Dr Ahmad Hakiim Jamaluddin (Ph.D.)</h4>
+        <p>Senior Lecturer in Statistics &amp; Data Science<br/>
+        Statistical Data Science Group<br/>
+        Department of Mathematics &amp; Statistics<br/>
+        Universiti Putra Malaysia, Malaysia</p>
+        <p>
+          📧 <a href="mailto:ahmadhakiimjamaluddin@gmail.com">ahmadhakiimjamaluddin@gmail.com</a><br/>
+          🌐 <a href="https://hakiimj.github.io" rel="noopener">hakiimj.github.io</a><br/>
+          💼 <a href="https://www.linkedin.com/in/hakiimj" rel="noopener">linkedin.com/in/hakiimj</a>
+        </p>
+      </div>
+      <div>
+        <h4>With thanks to</h4>
+        <ul style="list-style:none;padding:0;margin:0">
+          <li>UNAIR · UNMUL · UB · PERSAMA</li>
+          <li>HTPN Kajang · Hospital Dalat</li>
+          <li>MPC · UiTM · Ministry of Health Malaysia</li>
+          <li>NAIO · Ministry of Digital Malaysia</li>
+          <li>UPM Dept. of Mathematics &amp; Statistics</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Press &amp; publications</h4>
+        <p><a href="https://dewankosmik.jendeladbp.my/2026/04/17/23048/" rel="noopener" target="_blank">Dewan Kosmik · DBP coverage of IDSC 2026</a></p>
+        <p><a href="https://www.amazon.com/Strategic-Analytics-University-Governance-Intelligence-ebook/dp/B0GV39LVG6" rel="noopener" target="_blank">Strategic Analytics in University Governance (book, 2026)</a></p>
+        <p><strong>A small dare:</strong> pitch your innovative project your best later, <strong>celebrate the win publicly</strong> regardless of the results. Express your feelings on social media — Facebook, WhatsApp, LinkedIn, Instagram, TikTok, etc.</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Plenary 3 · Innovathon 2026 · 21 July 2026 · Dewan Produktiviti, MPC @ MATRADE, Kuala Lumpur</span>
+      <span>Theme: <em>Mathematics for Hope in Healthcare</em></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ====================== SCRIPTS ====================== -->
+<script>
+  // Scroll-progress bar
+  (function(){
+    var bar = document.getElementById('progress');
+    function update(){
+      var h = document.documentElement;
+      var sc = h.scrollTop || document.body.scrollTop;
+      var max = (h.scrollHeight - h.clientHeight) || 1;
+      bar.style.width = ((sc/max)*100).toFixed(1) + '%';
+    }
+    window.addEventListener('scroll', update, {passive:true});
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>
+</body>
+</html>
