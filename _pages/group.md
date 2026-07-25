@@ -84,12 +84,13 @@ author_profile: true
 
   <h3>Honours Students</h3>
   <ul>
-    <li><strong>Nur Zafnazuhani Jailani</strong></li>
-    <li><strong>Giridarkhanna A/L Vijay Khanna</strong></li>
-    <li><strong>Kevin Clement</strong></li>
-    <li><strong>Lochanna Sengottaiyan</strong></li>
-    <li><strong>Sametha Sivalingam</strong></li>
-    <li><strong>Arman Azad Shahrezad</strong></li>
+    <li><strong>Nur Zafnazuhani Jailani (UPM, Malaysia)</strong></li>
+    <li><strong>Giridarkhanna A/L Vijay Khanna (UPM, Malaysia)</strong></li>
+    <li><strong>Kevin Clement (UPM, Malaysia)</strong></li>
+    <li><strong>Lochanna Sengottaiyan (UPM, Malaysia)</strong></li>
+    <li><strong>Sametha Sivalingam (UPM, Malaysia)</strong></li>
+    <li><strong>Arman Azad Shahrezad (UPM, Malaysia)</strong></li>
+    <li><strong>Bashiri (Bash) (UNAIR, Indonesia)</strong></li>
   </ul>
 
   <h3>Interns</h3>
