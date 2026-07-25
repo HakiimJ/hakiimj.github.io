@@ -84,18 +84,18 @@ author_profile: true
 
   <h3>Honours Students</h3>
   <ul>
-    <li><strong>Nur Zafnazuhani Jailani (UPM, Malaysia)</strong></li>
-    <li><strong>Giridarkhanna A/L Vijay Khanna (UPM, Malaysia)</strong></li>
-    <li><strong>Kevin Clement (UPM, Malaysia)</strong></li>
-    <li><strong>Lochanna Sengottaiyan (UPM, Malaysia)</strong></li>
-    <li><strong>Sametha Sivalingam (UPM, Malaysia)</strong></li>
-    <li><strong>Arman Azad Shahrezad (UPM, Malaysia)</strong></li>
-    <li><strong>Bashiri (Bash) (UNAIR, Indonesia)</strong></li>
+    <li><strong>Nur Zafnazuhani Jailani</strong> (BSc Statistics, UPM, Malaysia)</li>
+    <li><strong>Giridarkhanna A/L Vijay Khanna</strong> (BSc Statistics, UPM, Malaysia)</li>
+    <li><strong>Kevin Clement</strong> (BSc Statistics, UPM, Malaysia)</li>
+    <li><strong>Lochanna Sengottaiyan</strong> (BSc Statistics, UPM, Malaysia)</li>
+    <li><strong>Sametha Sivalingam</strong> (BSc Statistics, UPM, Malaysia)</li>
+    <li><strong>Arman Azad Shahrezad</strong> (BSc Statistics, UPM, Malaysia)</li>
+    <li><strong>Bashiri Surya (Bash)</strong> (BSc Statistics, UNAIR, Indonesia)</li>
   </ul>
 
   <h3>Interns</h3>
   <ul>
-    <li><strong>Hanisah</strong>, BSc Data Science, University of Sheffield</li>
+    <li><strong>Nur Hanisah</strong> (BSc Data Science, University of Sheffield, United Kingdom)</li>
   </ul>
 
 </div>
