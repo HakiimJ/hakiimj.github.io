@@ -96,7 +96,7 @@ author_profile: true
     <li><strong>Bashiri Surya (Bash)</strong> (BSc Statistics, Universitas Airlangga, Indonesia)</li>
   </ul>
 
-  <h3>Interns</h3>
+  <h3>Research Interns</h3>
   <ul>
     <li><strong>Nur Hanisah</strong> (BSc Data Science, University of Sheffield, United Kingdom)</li>
   </ul>
