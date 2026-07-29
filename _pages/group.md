@@ -93,7 +93,7 @@ author_profile: true
     <li><strong>Lochanna Sengottaiyan</strong> (BSc Statistics, UPM, Malaysia)</li>
     <li><strong>Sametha Sivalingam</strong> (BSc Statistics, UPM, Malaysia)</li>
     <li><strong>Arman Azad Shahrezad</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Bashiri Surya (Bash)</strong> (BSc Statistics, Universitas Airlangga, Indonesia)</li>
+    <li><strong>Bashiri Surya</strong> (BSc Statistics, Universitas Airlangga, Indonesia)</li>
   </ul>
 
   <h3>Research Interns</h3>
