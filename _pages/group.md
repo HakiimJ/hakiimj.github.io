@@ -80,6 +80,9 @@ author_profile: true
     <li><strong>Muhammad Abbas</strong> (Statistics, UPM)<br>
       <em>Role: Co-supervisor (with Dr. Mohd Shafie Mustafa & Dr. Farid Zamani Che Rose)</em>
     </li>
+    <li><strong>Sheriff A. Bah</strong> (Computational Mathematics, Universitas Brawijaya, Indonesia)<br>
+      <em>Role: Co-supervisor (with Assoc. Prof. Dr. Syaiful Anam)</em>
+    </li>
   </ul>
 
   <h3>Honours Students</h3>
@@ -90,7 +93,7 @@ author_profile: true
     <li><strong>Lochanna Sengottaiyan</strong> (BSc Statistics, UPM, Malaysia)</li>
     <li><strong>Sametha Sivalingam</strong> (BSc Statistics, UPM, Malaysia)</li>
     <li><strong>Arman Azad Shahrezad</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Bashiri Surya (Bash)</strong> (BSc Statistics, UNAIR, Indonesia)</li>
+    <li><strong>Bashiri Surya (Bash)</strong> (BSc Statistics, Universitas Airlangga, Indonesia)</li>
   </ul>
 
   <h3>Interns</h3>
