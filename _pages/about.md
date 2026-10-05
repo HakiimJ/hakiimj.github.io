@@ -14,7 +14,11 @@ Additional keywords about Hakiim: evening-runner, flat-white, table-tennis.
 > *“When I was young, I admired clever people. Now that I am old, I admire kind people.”* — Abraham Joshua Heschel
 
 Recent updates:
-* <b>2026 August</b>: Received RM20,000 research grant from UPM, GERAN INISIATIF PUTRA MUDA (GP-IPM) for research entitled ADAPTIVE COMPOSITE-LIKELIHOOD SYMBOLIC INFERENCE AND OPTIMAL HISTOGRAM DESIGN FOR HIGH-DIMENSIONAL DATA.
+* <b>2026 September</b>: Appointed as a council member of the Institute of Statistics Malaysia (ISMy).
+* <b>2026 September</b>: Best presenter award at the 19th National Statistics Seminar organised by the Institute of Statistics Malaysia (ISMy).
+* <b>2026 September</b>: Best presenter award at the 33rd National Mathematics Symposium organised by Persatuan Sains Matematik Malaysia (PERSAMA).
+* <b>2026 September</b>: Delivered an invited talk at the 2nd National Conference on Data-Driven Modelling and Machine Learning Algorithms organised by Management Science/Operations Research Society of Malaysia (MSORSM).
+* <b>2026 August</b>: Received RM20,000 research grant from UPM, Geran Inisiatif Putra Muda (GP-IPM) for research entitled Adaptive Composite-Likelihood Symbolic Inference and Optimal Histogram Design for High-Dimensional Data.
 * <b>2026 August</b>: Delivered a Statistics and Data Science activity session during the INSPEM UPM Math Camp with SERATAS high school students.
 * <b>2026 July</b>: Delivered a plenary talk at <b>INNOVATHON 2026</b> on [AI Transformation of Reward Culture & Quick-Win Projects](/innovathon_plenary2026/).
 * <b>2026 July</b>: Delivered a talk during the Data Science Trio-Seminar at the Department of Mathematics and Statistics, Malaysia.
