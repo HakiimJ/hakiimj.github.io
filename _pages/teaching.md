@@ -13,7 +13,7 @@ author_profile: true
     <li><strong>Senior Lecturer in Statistics and Data Science</strong>, Department of Mathematics & Statistics (October 2025 – Present)<br>
       Responsible for lecturing and course development in statistics and data science at undergraduate and postgraduate levels.<br> 
       STS3401 - Probability & Statistics 1 : 25/26 (Sem-1), 26/27 (Sem-1) <br>
-      STS3404 - Data Science with Applications : 25/26 (Sem-2) [[Some student projects](https://hakiim-j.shinyapps.io/Data-Science-Projects/)] <br>
+      STS3404 - Data Science with Applications : 25/26 (Sem-2) [Some student projects](https://hakiim-j.shinyapps.io/Data-Science-Projects/) <br>
       STS3409 - Computational Statistics : 25/26 (Sem-1), 26/27 (Sem-1) 
     </li> 
   </ul>
