@@ -25,7 +25,7 @@ Beyond academia, I am an avid evening runner, a devoted flat-white enthusiast, a
   - Awarded a UPM research grant (Geran Inisiatif Putra Muda) to support research on *Adaptive Composite-Likelihood Symbolic Inference and Optimal Histogram Design for High-Dimensional Data*.
   - Enjoyed facilitating a Statistics and Data Science activity session for SERATAS high school students during the INSPEM UPM Math Camp.
 - **July**
-  - Invited to deliver a plenary talk at **INNOVATHON 2026** on [AI Transformation of Reward Culture & Quick-Win Projects](/innovathon_plenary2026/).
+  - Invited to deliver a plenary talk and judge at **INNOVATHON 2026** on [AI Transformation of Reward Culture & Quick-Win Projects](/innovathon_plenary2026/).
   - Shared insights during a Data Science Trio-Seminar at the Department of Mathematics and Statistics, Malaysia.
 - **June**
   - Delivered a pre-innovathon workshop on AI innovation for healthcare professionals at Hospital Tengku Permaisuri Norashikin, Malaysia.
