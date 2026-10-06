@@ -31,7 +31,7 @@ Beyond academia, I am an avid evening runner, a devoted flat-white enthusiast, a
   - Delivered a pre-innovathon workshop on AI innovation for healthcare professionals at Hospital Tengku Permaisuri Norashikin, Malaysia.
   - Guest lectured on *R for Data Science* at Universiti Teknologi MARA, Malaysia.
 - **May**
-  - Facilitated a Data Analytics workshop at Kolej Dua Belas, UPM, and an AI Automation workshop at Hospital Dalat, Sarawak.
+  - Conducted a Data Analytics workshop at Kolej Dua Belas, UPM, and an AI Automation workshop at Hospital Dalat, Sarawak.
 - **April**
   - Delivered guest lectures on symbolic data analysis and machine learning for healthcare analytics (featuring projects from Malaysia and Singapore) at Universitas Brawijaya, Indonesia.
   - Conducted a workshop on symbolic data analysis via R at the International Summer Program, Faculty of Science and Technology, Universitas Airlangga, Indonesia.
