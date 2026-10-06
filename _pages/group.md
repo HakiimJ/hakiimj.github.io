@@ -14,7 +14,7 @@ author_profile: true
   <!-- ========================================== -->
   <h2>Research Focus and Areas</h2>
   
-  <p>The <strong>Statistical Data Science Group</strong> is dedicated to addressing complex data challenges through <strong>symbolic data analysis</strong>, <strong>imbalanced classification</strong>, <strong>uncertainty quantification</strong>, and <strong>computational statistics</strong>. We strive to bridge foundational statistical methodologies with applied data science, with a particular emphasis on improving healthcare and public policy. We are always eager to welcome driven students and industry partners to collaborate with us. Inquiries are warmly welcomed at ahmadhakiim[at]upm[dot]edu[dot]my.</p>
+  <p>The <strong>Statistical Data Science Group</strong> is dedicated to addressing complex data challenges through <strong>symbolic data analysis</strong>, <strong>imbalanced classification</strong> and <strong>uncertainty quantification</strong>. We strive to bridge foundational statistical methodologies with applied data science, with a particular emphasis on improving healthcare and public policy. We are always eager to welcome driven students and industry partners to collaborate with us. Inquiries are warmly welcomed at ahmadhakiim[at]upm[dot]edu[dot]my.</p>
   
   <h3>Symbolic Data Analysis (SDA)</h3>
   <ul>
@@ -32,11 +32,6 @@ author_profile: true
   <h3>Uncertainty Quantification (UQ)</h3>
   <ul>
     <li><strong>Overview:</strong> While deep learning models, such as Convolutional Neural Networks (CNNs), offer remarkable predictive power, they often operate with inherent uncertainties. Our group is dedicated to developing and applying Uncertainty Quantification (UQ) techniques to measure and communicate the confidence of these models. By illuminating the "black box," we strive to make AI predictions more transparent, reliable, and trustworthy, particularly in high-stakes domains like healthcare and clinical diagnostics.</li>
-  </ul>
-
-  <h3>Computational Statistics</h3>
-  <ul>
-    <li><strong>Overview:</strong> Computational statistics leverages high-performance computing to interpret complex data through advanced algorithms and simulations. Our group focuses on advancing these techniques, primarily utilizing R and Python, to deliver efficient, scalable processing for real-world statistical models and sophisticated data analysis challenges.</li>
   </ul>
 
   <hr>
