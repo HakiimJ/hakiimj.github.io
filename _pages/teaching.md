@@ -6,7 +6,7 @@ author_profile: true
 ---
 {% include base_path %}
 <div class="teaching-content">
-  <p>I have extensive experience teaching and mentoring in statistics, data science, and related fields across multiple institutions in Australia, Malaysia, and Indonesia. Below is a reverse chronological list of my key teaching roles and courses.</p>
+  <p>I have experience teaching and mentoring in statistics, data science, and related fields across multiple institutions in Australia, Malaysia, and Indonesia. Below is a reverse chronological list of my key teaching roles and courses.</p>
   
   <h3>Universiti Putra Malaysia (UPM), Selangor, Malaysia</h3>
   <ul>
