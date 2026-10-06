@@ -14,7 +14,7 @@ author_profile: true
   <!-- ========================================== -->
   <h2>Research Focus and Areas</h2>
   
-  <p>The <strong>Statistical Data Science Group</strong> is dedicated to addressing complex data challenges through <strong>symbolic data analysis</strong>, <strong>imbalanced classification</strong>, and <strong>computational statistics</strong>. We strive to bridge foundational statistical methodologies with applied data science, with a particular emphasis on improving healthcare and public policy. We are always eager to welcome driven students and industry partners to collaborate with us. Inquiries are warmly welcomed at ahmadhakiim[at]upm[dot]edu[dot]my.</p>
+  <p>The <strong>Statistical Data Science Group</strong> is dedicated to addressing complex data challenges through <strong>symbolic data analysis</strong>, <strong>imbalanced classification</strong>, <strong>uncertainty quantification</strong>, and <strong>computational statistics</strong>. We strive to bridge foundational statistical methodologies with applied data science, with a particular emphasis on improving healthcare and public policy. We are always eager to welcome driven students and industry partners to collaborate with us. Inquiries are warmly welcomed at ahmadhakiim[at]upm[dot]edu[dot]my.</p>
   
   <h3>Symbolic Data Analysis (SDA)</h3>
   <ul>
@@ -27,6 +27,11 @@ author_profile: true
     <li><strong>Data-Level Approaches:</strong> We mitigate class imbalance at the foundational level by developing and applying advanced <strong>resampling methodologies</strong> (including oversampling, undersampling, and hybrid techniques) tailored to the specific topological characteristics of a dataset.</li>
     <li><strong>Algorithmic-Level Approaches:</strong> Beyond resampling, our research explores algorithmic interventions, particularly <strong>cost-sensitive learning</strong>, to mathematically penalise misclassifications and optimise models directly for minority class recognition.</li>
     <li><strong>Recommendation Systems:</strong> We are pioneering novel recommendation architectures specifically designed to navigate class imbalance, particularly when compounded by other structural data irregularities.</li>
+  </ul>
+
+  <h3>Uncertainty Quantification (UQ)</h3>
+  <ul>
+    <li><strong>Overview:</strong> While deep learning models, such as Convolutional Neural Networks (CNNs), offer remarkable predictive power, they often operate with inherent uncertainties. Our group is dedicated to developing and applying Uncertainty Quantification (UQ) techniques to measure and communicate the confidence of these models. By illuminating the "black box," we strive to make AI predictions more transparent, reliable, and trustworthy, particularly in high-stakes domains like healthcare and clinical diagnostics.</li>
   </ul>
 
   <h3>Computational Statistics</h3>
