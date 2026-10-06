@@ -7,8 +7,10 @@ redirect_from:
   - /resume
 ---
 
-Below is a summary of my academic background, professional experience, and technical skills. 
+Thank you for your interest in my professional journey. Below is an overview of my academic background, professional experiences, and technical skills. 
 
-[**Click here to download a PDF copy of my CV.**](/images/HakiimJ_CV.pdf)
+For a more detailed look, you are welcome to [download a PDF copy of my full CV](/images/HakiimJ_CV.pdf).
 
-<iframe src="/images/HakiimJ_CV.pdf" width="100%" height="700" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe src="/images/HakiimJ_CV.pdf" width="100%" height="700px" style="border: none;" title="Curriculum Vitae of Hakiim Jamaluddin">
+  Your browser does not support embedded PDFs. Please <a href="/images/HakiimJ_CV.pdf">click here to download the file</a>.
+</iframe>
