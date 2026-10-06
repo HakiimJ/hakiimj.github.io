@@ -68,7 +68,7 @@ author_profile: true
   <!-- ========================================== -->
   <h2>Group Members & Supervision</h2>
   
-  <p>I am deeply proud to mentor and collaborate with the next generation of data scientists and researchers. Our current group members include:</p>
+  <p>I am deeply proud to mentor and collaborate with the next generation of data scientists and researchers. Our current and past group members include:</p>
 
   <h3>PhD Candidates</h3>
   <ul>
@@ -88,19 +88,24 @@ author_profile: true
   </ul>
 
   <h3>Honours Students</h3>
+  <h4>Completed</h4>
   <ul>
-    <li><strong>Nur Zafnazuhani Jailani</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Giridarkhanna A/L Vijay Khanna</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Kevin Clement</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Lochanna Sengottaiyan</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Sametha Sivalingam</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Arman Azad Shahrezad</strong> (BSc Statistics, UPM, Malaysia)</li>
-    <li><strong>Bashiri Surya</strong> (BSc Statistics, Universitas Airlangga, Indonesia)</li>
+    <li><strong>Nur Zafnazuhani Jailani</strong> (BSc Statistics, UPM, Malaysia) – <em>Completed 2025</em></li>
+  </ul>
+  
+  <h4>Ongoing</h4>
+  <ul>
+    <li><strong>Giridarkhanna A/L Vijay Khanna</strong> (BSc Statistics, UPM, Malaysia) – <em>Started 2026</em></li>
+    <li><strong>Kevin Clement</strong> (BSc Statistics, UPM, Malaysia) – <em>Started 2026</em></li>
+    <li><strong>Lochanna Sengottaiyan</strong> (BSc Statistics, UPM, Malaysia) – <em>Started 2026</em></li>
+    <li><strong>Sametha Sivalingam</strong> (BSc Statistics, UPM, Malaysia) – <em>Started 2026</em></li>
+    <li><strong>Arman Azad Shahrezad</strong> (BSc Statistics, UPM, Malaysia) – <em>Started 2026</em></li>
+    <li><strong>Bashiri Surya</strong> (BSc Statistics, Universitas Airlangga, Indonesia) – <em>Started 2026</em></li>
   </ul>
 
   <h3>Research Interns</h3>
   <ul>
-    <li><strong>Nur Hanisah</strong> (BSc Data Science, University of Sheffield, United Kingdom)</li>
+    <li><strong>Nur Hanisah</strong> (BSc Data Science, University of Sheffield, United Kingdom) – <em>Completed 2026</em></li>
   </ul>
 
 </div>
