@@ -82,6 +82,9 @@ author_profile: true
     <li><strong>Muhammad Abbas</strong> (Statistics, UPM)<br>
       <em>Role: Co-supervisor (with Dr. Mohd Shafie Mustafa & Dr. Farid Zamani Che Rose)</em>
     </li>
+    <li><strong>Md Shakib</strong> (Statistics, UPM)<br>
+      <em>Role: Co-supervisor (with Dr. Farid Zamani Che Rose)</em>
+    </li>
     <li><strong>Sheriff A. Bah</strong> (Computational Mathematics, Universitas Brawijaya, Indonesia)<br>
       <em>Role: Co-supervisor (with Assoc. Prof. Dr. Syaiful Anam)</em>
     </li>
